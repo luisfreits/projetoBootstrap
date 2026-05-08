@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 20px;
+    padding: 30px;
+    margin: 0 20px 0 20px
+}
+
+.text-white {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.list-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-literatura {
+    padding: 20px;
+    width: 70%;
+}
+
+.footer-projeto {
+    padding: 20px;
+    width: 30%;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+}
