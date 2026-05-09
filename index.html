@@ -1,639 +1,376 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>literatura</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">literatura</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                literatura
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="humanismo.html">Humanismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="classicismo.html">Classicismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="barroco.html">Barroco</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="romantismo.html">Romantismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="realismo.html">Realismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="parnasianismo.html"
-                    >Parnasianismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pré-modernismo.html"
-                    >Pré-modernismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="modernismo.html">Modernismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pós-modernismo.html"
-                    >Pós-modernismo</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>literatura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
+<body>
 
-    <main class="index-main"> <!--classe propria pra nao ficar escondido pela nav-->
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active position-relative">
-            <img
-              src="img/trovadorismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Trovadorismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <a href="trovadorismo.html" class="text-white">Trovadorismo</a>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/humanismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Humanismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5><a href="humanismo.html" class="text-white">Humanismo</a></h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/classicismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Classicismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="classicismo.html" class="text-white">Classicismo</a>
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/quinhentismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Quinhentismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="quinhentismo.html" class="text-white">Quinhentismo</a>
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/barroco.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Barroco"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5><a href="barroco.html" class="text-white">Barroco</a></h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/arcadismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Arcadismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5><a href="arcadismo.html" class="text-white">Arcadismo</a></h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/romantismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Romantismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="romantismo.html" class="text-white">Romantismo</a>
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/realismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Realismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5><a href="realismo.html" class="text-white">Realismo</a></h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/naturalismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Naturalismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="naturalismo.html" class="text-white">Naturalismo</a>
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/classicismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Parnasianismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="parnasianismo.html" class="text-white"
-                  >Parnasianismo</a
-                >
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/simbolismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Simbolismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="simbolismo.html" class="text-white">Simbolismo</a>
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/pre-modernismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Pré-modernismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="pré-modernismo.html" class="text-white"
-                  >Pré-modernismo</a
-                >
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/modernismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Modernismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="modernismo.html" class="text-white">Modernismo</a>
-              </h5>
-            </div>
-          </div>
-
-          <div class="carousel-item position-relative">
-            <img
-              src="img/pos-modernismo.png"
-              class="d-block w-100"
-              loading="lazy"
-              alt="Pós-modernismo"
-            />
-            <div
-              class="position-absolute top-50 start-50 translate-middle text-center"
-            >
-              <h5>
-                <a href="pós-modernismo.html" class="text-white"
-                  >Pós-modernismo</a
-                >
-              </h5>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <br />
-      <figure>
-        <blockquote class="blockquote fs-4">
-          <p>
-            A Literatura é, assim, a vida, parte da vida, não se admitindo possa
-            haver conflito entre uma e outra. Através das obras literárias,
-            tomamos contato com a vida, nas suas verdades eternas, comuns a
-            todos os homens e lugares, porque são as verdades da mesma condição
-            humana
-          </p>
-        </blockquote>
-        <figcaption class="blockquote-footer">
-          Afrânio Coutinho,
-          <cite title="Source Title"
-            >Professor e crítico literário brasileiro</cite
-          >
-        </figcaption>
-      </figure>
-      <br />
-      <hr />
-      <br />
-      <p class="fs-5">
-        A palavra literatura vem do latim littera ("letra") e é considerada a
-        arte das palavras. Assim como as tintas são a matéria-prima de um
-        pintor, as palavras são o meio pelo qual a literatura cria arte, seja em
-        prosa ou em verso. Ela não é estática, mas um fenômeno em constante
-        mudança que reflete a cultura e a sociedade de cada época. Além de ser
-        uma forma de expressão artística com valor estético, o termo também é
-        usado para se referir ao conjunto de obras escritas de um país ou
-        período
-      </p>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="humanismo.html">Humanismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classicismo.html">Classicismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="barroco.html">Barroco</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="arcadismo.html">Arcadismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="romantismo.html">Romantismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="realismo.html">Realismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="naturalismo.html">Naturalismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="parnasianismo.html">Parnasianismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="simbolismo.html">Simbolismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pré-modernismo.html">Pré-modernismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="modernismo.html">Modernismo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pós-modernismo.html">Pós-modernismo</a>
+              </li>
 
-      <p class="fs-5">
-        A literatura desempenha um papel social e cultural fundamental, pois
-        atua como uma recriação da realidade que nos permite entender melhor a
-        nós mesmos, nossas ações e a sociedade em que vivemos. Segundo o crítico
-        Afrânio Coutinho, é através das obras literárias que tomamos contato com
-        a vida em suas "verdades eternas" e comuns à condição humana. Ela
-        provoca sensações, reflexões e produz efeitos estéticos que expandem a
-        percepção do leitor sobre o mundo
-      </p>
-      <br />
-      <hr />
-      <br />
-      <ul class="list-unstyled fs-5">
-        <li class="list-title">
-          <strong>Notáveis Autores Brasileiros</strong>
-        </li>
-        <br />
-        <li>
-          <strong>Gregório de Matos (Barroco):</strong> "Boca do Inferno", maior
-          representante do Barroco brasileiro. Usava cultismo (jogo de palavras)
-          e conceptismo (jogo de ideias).
-        </li>
-        <br />
-        <li>
-          <strong>José de Alencar e Gonçalves Dias (Romantismo):</strong>
-          Pilares do Indianismo, elevando o indígena a herói nacional após a
-          Independência.
-        </li>
-        <br />
-        <li>
-          <strong>Machado de Assis (Realismo):</strong> Considerado o maior
-          escritor brasileiro, inaugurou o Realismo com
-          <em>Memórias Póstumas de Brás Cubas</em> (1881), marcado por análise
-          psicológica e retrato da sociedade urbana.
-        </li>
-        <br />
-        <li>
-          <strong>Monteiro Lobato (Pré-Modernismo):</strong> Usou linguagem
-          coloquial e regional para tratar temas sociais, políticos e
-          históricos, rompendo com o academicismo.
-        </li>
-        <br />
-        <li>
-          <strong
-            >Manuel Bandeira e Carlos Drummond de Andrade (Modernismo -
-            Poesia):</strong
-          >
-          Expoentes da poesia pós-1922, defendendo verso livre, liberdade
-          estética e ruptura com o tradicionalismo.
-        </li>
-        <br />
-        <li>
-          <strong
-            >Clarice Lispector e Guimarães Rosa (Modernismo - Prosa):</strong
-          >
-          Levaram a prosa a novos patamares de subjetividade e introspecção, com
-          linguagem inovadora sobre a alma humana e o sertão.
-        </li>
-      </ul>
-      <br />
-      <hr />
-      <br />
-      <ul class="list-unstyled fs-5">
-        <li class="list-title">
-          <strong>Linha do Tempo dos Movimentos Literários</strong>
-        </li>
-        <br />
-        <li>
-          <strong>Período Medieval e Renascentista (Origens Europeias)</strong>
-          <ul>
-            <br />
-            <li>
-              <strong>Trovadorismo:</strong> Primeiro movimento em língua
-              portuguesa; cantigas líricas e satíricas nas cortes medievais.
-            </li>
-            <br />
-            <li>
-              <strong>Humanismo:</strong> Transição entre Idade Média e
-              Renascimento; foco no homem, prosa estruturada e teatro popular.
-            </li>
-            <br />
-            <li>
-              <strong>Classicismo:</strong> Retorno aos valores greco-romanos,
-              com busca pela perfeição formal e racionalismo.
-            </li>
-          </ul>
-        </li>
-        <br />
-        <li>
-          <strong>Era Colonial (1500 — 1808)</strong>
-          <ul>
-            <br />
-            <li>
-              <strong>Quinhentismo (Séc. XVI):</strong> Primeiros textos no
-              Brasil — relatos de viajantes e textos jesuítas. Marco:
-              <em>Carta de Pero Vaz de Caminha</em>.
-            </li>
-            <br />
-            <li>
-              <strong>Barroco (1601 — 1768):</strong> Dualismo espírito/matéria,
-              linguagem rebuscada. Destaques: Gregório de Matos e Padre Antônio
-              Vieira.
-            </li>
-            <br />
-            <li>
-              <strong>Arcadismo (1768 — 1808):</strong> Inspirado no Iluminismo;
-              simplicidade, natureza e temas bucólicos. Ligado a Vila Rica (MG).
-              Nomes: Cláudio Manuel da Costa e Tomás Antônio Gonzaga.
-            </li>
-          </ul>
-        </li>
-        <br />
-        <li>
-          <strong>Era Nacional (1836 — Atualidade)</strong>
-          <ul>
-            <br />
-            <li>
-              <strong>Romantismo (1836 — 1881):</strong> Primeiro movimento
-              nacional; três fases: indianista, pessimista e condoreira
-              (liberdade).
-            </li>
-            <br />
-            <li>
-              <strong>Realismo (1881):</strong> Objetivismo e análise
-              psicológica em oposição ao Romantismo. Marco: Machado de Assis.
-            </li>
-            <br />
-            <li>
-              <strong>Naturalismo (1881):</strong> Retrato fiel da sociedade com
-              temas patológicos e coletivos. Obra máxima: <em>O Cortiço</em>, de
-              Aluísio de Azevedo.
-            </li>
-            <br />
-            <li>
-              <strong>Parnasianismo (1882):</strong> "Arte pela arte"; perfeição
-              formal, sonetos e métricas rígidas. Principal nome: Olavo Bilac.
-            </li>
-            <br />
-            <li>
-              <strong>Simbolismo (1893):</strong> Subjetivismo, misticismo e
-              busca pela alma humana pelo subconsciente. Destaque: Cruz e Sousa.
-            </li>
-            <br />
-            <li>
-              <strong>Pré-Modernismo (Início do Séc. XX):</strong> Transição
-              para o Modernismo; realidade social e regional. Nomes: Monteiro
-              Lobato e Lima Barreto.
-            </li>
-            <br />
-            <li>
-              <strong>Modernismo (1922):</strong> Iniciado pela Semana de Arte
-              Moderna; liberdade estética e ruptura com o tradicionalismo.
-              Nomes: Mário de Andrade, Oswald de Andrade e Carlos Drummond.
-            </li>
-            <br />
-            <li>
-              <strong>Pós-Modernismo (Após 1945):</strong> Multiplicidade de
-              estilos e total liberdade de expressão. Nomes: Ariano Suassuna e
-              Cora Coralina.
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </main>
-
-    <footer>
-      <div class="footer-sides">
-        <div class="footer-literatura">
-          <p class="fs-2">literatura.</p>
-          <p>
-            Um acervo digital dedicado à divulgação da literatura brasileira e
-            seus movimentos.
-          </p>
-          <p>
-            Projeto acadêmico sem fins lucrativos. <br />
-            <span class="badge text-bg-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0.5rem"
-                height="0.5rem"
-                gap="0.3rem"
-                fill="currentColor"
-                class="bi bi-heart-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
-                />
-              </svg>
-              sem fins lucrativos
-            </span>
-          </p>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <div class="footer-projeto">
-          <p class="fs-2">PROJETO</p>
-          <p>
-            <a href="sobre.html">Sobre o projeto</a>
-          </p>
-          <p>
-            <a href="mailto:exemplo@oluiseug.com">Contato</a>
-          </p>
+      </div>
+    </nav>
+  </header>
+
+  <nav>
+
+  </nav>
+  <main>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img src="img/trovadorismo.webp" class="d-block w-100" alt="Trovadorismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <a href="trovadorismo.html" class="text-white">Trovadorismo</a>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/humanismo.webp" class="d-block w-100" alt="Humanismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="humanismo.html" class="text-white">Humanismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/classicismo.webp" class="d-block w-100" alt="Classicismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="classicismo.html" class="text-white">Classicismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/quinhentismo.webp" class="d-block w-100" alt="Quinhentismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="quinhentismo.html" class="text-white">Quinhentismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/barroco.webp" class="d-block w-100" alt="Barroco">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="barroco.html" class="text-white">Barroco</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/arcadismo.webp" class="d-block w-100" alt="Arcadismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="arcadismo.html" class="text-white">Arcadismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/romantismo.webp" class="d-block w-100" alt="Romantismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="romantismo.html" class="text-white">Romantismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/realismo.webp" class="d-block w-100" alt="Realismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="realismo.html" class="text-white">Realismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/naturalismo.webp" class="d-block w-100" alt="Naturalismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="naturalismo.html" class="text-white">Naturalismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/classicismo.webp" class="d-block w-100" alt="Parnasianismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="parnasianismo.html" class="text-white">Parnasianismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/simbolismo.webp" class="d-block w-100" alt="Simbolismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="simbolismo.html" class="text-white">Simbolismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/pre-modernismo.webp" class="d-block w-100" alt="Pré-modernismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="pré-modernismo.html" class="text-white">Pré-modernismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/modernismo.webp" class="d-block w-100" alt="Modernismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="modernismo.html" class="text-white">Modernismo</a></h5>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="img/pos-modernismo.jpg" class="d-block w-100" alt="Pós-modernismo">
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h5><a href="pós-modernismo.html" class="text-white">Pós-modernismo</a></h5>
+          </div>
         </div>
       </div>
 
-      <hr />
-      <div class="footer-bottom">
-        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  <br>
+  <section class="content">
+    <figure>
+      <blockquote class="blockquote fs-4">
+        <p>A Literatura é, assim, a vida, parte da vida, não se admitindo possa haver conflito entre uma e outra.
+          Através das obras literárias, tomamos contato com a vida, nas suas verdades eternas, comuns a todos os homens
+          e lugares, porque são as verdades da mesma condição humana</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Afrânio Coutinho, <cite title="Source Title">Professor e crítico literário brasileiro</cite>
+      </figcaption>
+    </figure>
+    <br>
+    <hr>
+    <br>
+    <p class="fs-5">A palavra literatura vem do latim littera ("letra") e é considerada a arte das palavras. Assim como
+      as tintas são a matéria-prima de um pintor, as palavras são o meio pelo qual a literatura cria arte, seja em prosa
+      ou em verso. Ela não é estática, mas um fenômeno em constante mudança que reflete a cultura e a sociedade de cada
+      época. Além de ser uma forma de expressão artística com valor estético, o termo também é usado para se referir ao
+      conjunto de obras escritas de um país ou período</p>
+
+    <p class="fs-5">A literatura desempenha um papel social e cultural fundamental, pois atua como uma recriação da
+      realidade que nos permite entender melhor a nós mesmos, nossas ações e a sociedade em que vivemos. Segundo o
+      crítico Afrânio Coutinho, é através das obras literárias que tomamos contato com a vida em suas "verdades eternas"
+      e comuns à condição humana. Ela provoca sensações, reflexões e produz efeitos estéticos que expandem a percepção
+      do leitor sobre o mundo</p>
+    <br>
+    <hr>
+    <br>
+    <ul class="list-unstyled fs-5">
+      <li class="list-title"><strong>Notáveis Autores Brasileiros</strong></li>
+      <br>
+      <li><strong>Gregório de Matos (Barroco):</strong> "Boca do Inferno", maior representante do Barroco brasileiro.
+        Usava cultismo (jogo de palavras) e conceptismo (jogo de ideias).</li>
+      <br>
+      <li><strong>José de Alencar e Gonçalves Dias (Romantismo):</strong> Pilares do Indianismo, elevando o indígena a
+        herói nacional após a Independência.</li>
+      <br>
+      <li><strong>Machado de Assis (Realismo):</strong> Considerado o maior escritor brasileiro, inaugurou o Realismo
+        com <em>Memórias Póstumas de Brás Cubas</em> (1881), marcado por análise psicológica e retrato da sociedade
+        urbana.</li>
+      <br>
+      <li><strong>Monteiro Lobato (Pré-Modernismo):</strong> Usou linguagem coloquial e regional para tratar temas
+        sociais, políticos e históricos, rompendo com o academicismo.</li>
+      <br>
+      <li><strong>Manuel Bandeira e Carlos Drummond de Andrade (Modernismo - Poesia):</strong> Expoentes da poesia
+        pós-1922, defendendo verso livre, liberdade estética e ruptura com o tradicionalismo.</li>
+      <br>
+      <li><strong>Clarice Lispector e Guimarães Rosa (Modernismo - Prosa):</strong> Levaram a prosa a novos patamares de
+        subjetividade e introspecção, com linguagem inovadora sobre a alma humana e o sertão.</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <ul class="list-unstyled fs-5">
+      <li class="list-title"><strong>Linha do Tempo dos Movimentos Literários</strong></li>
+      <br>
+      <li><strong>Período Medieval e Renascentista (Origens Europeias)</strong>
+        <ul>
+          <br>
+          <li><strong>Trovadorismo:</strong> Primeiro movimento em língua portuguesa; cantigas líricas e satíricas nas
+            cortes medievais.</li>
+          <br>
+          <li><strong>Humanismo:</strong> Transição entre Idade Média e Renascimento; foco no homem, prosa estruturada e
+            teatro popular.</li>
+          <br>
+          <li><strong>Classicismo:</strong> Retorno aos valores greco-romanos, com busca pela perfeição formal e
+            racionalismo.</li>
+        </ul>
+      </li>
+      <br>
+      <li><strong>Era Colonial (1500 — 1808)</strong>
+        <ul>
+          <br>
+          <li><strong>Quinhentismo (Séc. XVI):</strong> Primeiros textos no Brasil — relatos de viajantes e textos
+            jesuítas. Marco: <em>Carta de Pero Vaz de Caminha</em>.</li>
+          <br>
+          <li><strong>Barroco (1601 — 1768):</strong> Dualismo espírito/matéria, linguagem rebuscada. Destaques:
+            Gregório de Matos e Padre Antônio Vieira.</li>
+          <br>
+          <li><strong>Arcadismo (1768 — 1808):</strong> Inspirado no Iluminismo; simplicidade, natureza e temas
+            bucólicos. Ligado a Vila Rica (MG). Nomes: Cláudio Manuel da Costa e Tomás Antônio Gonzaga.</li>
+        </ul>
+      </li>
+      <br>
+      <li><strong>Era Nacional (1836 — Atualidade)</strong>
+        <ul>
+          <br>
+          <li><strong>Romantismo (1836 — 1881):</strong> Primeiro movimento nacional; três fases: indianista, pessimista
+            e condoreira (liberdade).</li>
+          <br>
+          <li><strong>Realismo (1881):</strong> Objetivismo e análise psicológica em oposição ao Romantismo. Marco:
+            Machado de Assis.</li>
+          <br>
+          <li><strong>Naturalismo (1881):</strong> Retrato fiel da sociedade com temas patológicos e coletivos. Obra
+            máxima: <em>O Cortiço</em>, de Aluísio de Azevedo.</li>
+          <br>
+          <li><strong>Parnasianismo (1882):</strong> "Arte pela arte"; perfeição formal, sonetos e métricas rígidas.
+            Principal nome: Olavo Bilac.</li>
+          <br>
+          <li><strong>Simbolismo (1893):</strong> Subjetivismo, misticismo e busca pela alma humana pelo subconsciente.
+            Destaque: Cruz e Sousa.</li>
+          <br>
+          <li><strong>Pré-Modernismo (Início do Séc. XX):</strong> Transição para o Modernismo; realidade social e
+            regional. Nomes: Monteiro Lobato e Lima Barreto.</li>
+          <br>
+          <li><strong>Modernismo (1922):</strong> Iniciado pela Semana de Arte Moderna; liberdade estética e ruptura com
+            o tradicionalismo. Nomes: Mário de Andrade, Oswald de Andrade e Carlos Drummond.</li>
+          <br>
+          <li><strong>Pós-Modernismo (Após 1945):</strong> Multiplicidade de estilos e total liberdade de expressão.
+            Nomes: Ariano Suassuna e Cora Coralina.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  </main>
+
+  <footer>
+    <div class="footer-sides">
+      <div class="footer-literatura">
+        <p class="fs-2">literatura.</p>
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos. <br>
+          <span class="badge text-bg-light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" gap="0.3rem" fill="currentColor"
+              class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+            </svg>
+            sem fins lucrativos
+          </span>
+        </p>
+
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="footer-projeto">
+        <p class="fs-2">PROJETO</p>
+        <p>
+          <a href="sobre.html">Sobre o projeto</a>
+        </p>
+        <p>
+          <a href="mailto:exemplo@oluiseug.com">Contato</a>
+        </p>
+      </div>
+
+    </div>
+
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
