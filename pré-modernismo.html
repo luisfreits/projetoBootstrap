@@ -1,118 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap na Prática</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap na Prática</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">literatura</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                literatura
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="humanismo.html">Humanismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="classicismo.html">Classicismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="barroco.html">Barroco</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="arcadismo.html">Arcadismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="romantismo.html">Romantismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="realismo.html">Realismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="parnasianismo.html"
+                    >Parnasianismo</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pré-modernismo.html"
+                    >Pré-modernismo</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="modernismo.html">Modernismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pós-modernismo.html"
+                    >Pós-modernismo</a
+                  >
+                </li>
 
-<body>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <header>
-    <nav class="navbar bg-body-tertiary fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">arte.</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">arte.</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <nav></nav>
+
+    <main></main>
+
+    <footer>
+      <div class="footer-sides">
+        <div class="footer-literatura">
+          <p class="fs-2">literatura.</p>
+          <p>
+            Um acervo digital dedicado à divulgação da literatura brasileira e
+            seus movimentos.
+          </p>
+          <p>
+            Projeto acadêmico sem fins lucrativos. <br />
+            <span class="badge text-bg-light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5rem"
+                height="0.5rem"
+                gap="0.3rem"
+                fill="currentColor"
+                class="bi bi-heart-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
+                />
+              </svg>
+              sem fins lucrativos
+            </span>
+          </p>
+        </div>
+        <div class="footer-projeto">
+          <p class="fs-2">PROJETO</p>
+          <p>
+            <a href="sobre.html">Sobre o projeto</a>
+          </p>
+          <p>
+            <a href="mailto:exemplo@oluiseug.com">Contato</a>
+          </p>
+        </div>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="humanismo.html">Humanismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="classicismo.html">Classicismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="barroco.html">Barroco</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="romantismo.html">Romantismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="realismo.html">Realismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="parnasianismo.html">Parnasianismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Pré-modernismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="modernismo.html">Modernismo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pós-modernismo.html">Pós-modernismo</a>
-          </li>
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+
+      <hr />
+      <div class="footer-bottom">
+        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
       </div>
-    </div>
-  </div>
-</nav>
-    <div>
-      <h1>arte.</h1>
-      <p>Aprendendo HTML, CSS e Bootstrap</p>
-    </div>
-  </header>
-
-  <nav>
-    
-  </nav>
-
-  <main>
-    
-  </main>
-
-  <footer>
-    <div>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
-</body>
-
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
