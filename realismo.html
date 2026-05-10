@@ -1,270 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap na Prática</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">literatura</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                literatura
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="humanismo.html">Humanismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="classicismo.html">Classicismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="barroco.html">Barroco</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="romantismo.html">Romantismo</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="realismo.html"
-                    >Realismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="parnasianismo.html"
-                    >Parnasianismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pré-modernismo.html"
-                    >Pré-modernismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="modernismo.html">Modernismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pós-modernismo.html"
-                    >Pós-modernismo</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realismo — Literatura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+<body>
+
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link" href="arcadismo.html">Arcadismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="romantismo.html">Romantismo</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <p>
-        O Realismo foi um movimento artístico e literário que surgiu na França
-        nas últimas décadas do século XIX, surgindo como uma reação direta ao
-        Romantismo. Enquanto o movimento anterior se pautava pela subjetividade
-        e pelo sentimentalismo, o Realismo baseava-se na representação objetiva
-        da realidade, rejeitando qualquer forma de idealização.
-      </p>
-      <p>
-        1. Contexto Histórico e Filosófico O Realismo surgiu em um período de
-        profundas transformações sociais e avanços científicos: Influências
-        Intelectuais: O movimento foi fortemente influenciado pelo Positivismo,
-        pelo Materialismo e pelo Cientificismo da época. Ascensão da Pequena
-        Burguesia: Ao contrário da alta burguesia que se interessava pela "arte
-        pela arte", a pequena burguesia motivou uma arte "engajada", voltada
-        para a solução de problemas sociais e para o retrato fidedigno da vida
-        cotidiana. Revolução Industrial: As mudanças nos meios de produção e o
-        crescimento urbano trouxeram novos conflitos de classe que se tornaram
-        temas centrais das obras.
-      </p>
-      <p>
-        2. Características do Realismo Literário Diferente dos "heróis"
-        românticos, os escritores realistas desejavam retratar o homem comum e a
-        sociedade em sua totalidade. Objetivismo e Veracidade: Busca por um
-        retrato fiel da sociedade, utilizando uma linguagem descritiva,
-        detalhada e direta. Análise Psicológica: Foco na face oculta da alma
-        humana, revelando falsidades, egoísmos e impotências. Narrativa em
-        Terceira Pessoa: O autor assume uma posição de observador distante, em
-        contraste com a primeira pessoa subjetiva do Romantismo. Temas Sociais e
-        Urbanos: Exploração do cotidiano massacrante, do amor adúltero e das
-        falhas das instituições, muitas vezes como forma de estimular mudanças
-        sociais.
-      </p>
-      <p>
-        3. O Realismo no Brasil (1881 — Início do Séc. XX) No Brasil, o
-        movimento teve seu marco inicial em 1881 com a publicação de Memórias
-        Póstumas de Brás Cubas, de Machado de Assis. Principais Autores: Machado
-        de Assis: O maior nome do Realismo brasileiro. Suas obras romperam com o
-        nacionalismo ufanista para focar na análise psicológica e na ironia
-        sobre os costumes burgueses do Rio de Janeiro. Raul Pompeia e Visconde
-        de Taunay: Outros nomes que se destacaram no período por apresentarem
-        retratos fidedignos da sociedade. Particularidades: O Realismo
-        brasileiro foi predominantemente urbano, centrando-se na capital da
-        época (Rio de Janeiro) e servindo como contraponto ao modus vivendi do
-        Segundo Império.
-      </p>
-      <p>
-        4. O Realismo em Portugal Em Portugal, o Realismo foi introduzido após
-        1865, impulsionado pela polêmica intelectual conhecida como "Questão
-        Coimbrã". Introdutores: Eça de Queirós e Antero de Quental foram as
-        figuras centrais. Obras de Destaque: Eça de Queirós utilizou o romance
-        social e de tese para criticar violentamente a vida social portuguesa,
-        denunciando a corrupção do clero e a hipocrisia burguesa em obras como O
-        Crime do Padre Amaro. Conferências do Casino (1871): Marco importante
-        onde o Realismo foi definido como uma arte revolucionária e regeneradora
-        da consciência social.
-      </p>
-      <p>
-        5. Realismo nas Artes Visuais A pintura foi a primeira manifestação
-        artística a reagir violentamente contra a estética romântica idealista.
-        Pintura: Artistas como Gustave Courbet procuraram traduzir o aspecto
-        real de sua época, focando em trabalhadores e cenas mundanas
-        anteriormente consideradas indignas de representação. Escultura: O
-        grande representante foi Auguste Rodin, que abandonou a idealização para
-        recriar seres como eles são, fixando o momento significativo do gesto
-        humano. Arquitetura: Passou a responder às necessidades da
-        industrialização, priorizando a construção de fábricas, estações
-        ferroviárias, hospitais e moradias populares.
-      </p>
-    </main>
-
-    <footer>
-      <div class="footer-sides">
-        <div class="footer-literatura">
-          <p class="fs-2">literatura.</p>
-          <p>
-            Um acervo digital dedicado à divulgação da literatura brasileira e
-            seus movimentos.
-          </p>
-          <p>
-            Projeto acadêmico sem fins lucrativos. <br />
-            <span class="badge text-bg-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0.5rem"
-                height="0.5rem"
-                gap="0.3rem"
-                fill="currentColor"
-                class="bi bi-heart-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
-                />
-              </svg>
-              sem fins lucrativos
-            </span>
-          </p>
-        </div>
-        <div class="footer-projeto">
-          <p class="fs-2">PROJETO</p>
-          <p>
-            <a href="sobre.html">Sobre o projeto</a>
-          </p>
-          <p>
-            <a href="mailto:exemplo@oluiseug.com">Contato</a>
-          </p>
-        </div>
       </div>
+    </nav>
+  </header>
 
-      <hr />
-      <div class="footer-bottom">
-        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+  <main class="pt-5">
+
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/realismo.webp" class="w-100 h-100 object-fit-cover" alt="Realismo" style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Realismo</h1>
+        <p class="lead mb-0">1881 — Início do Séc. XX · Objetivismo e Análise</p>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </section>
+    <article class="container mb-5">
+      <p class="lead">O Realismo surgiu na França nas últimas décadas do século XIX como uma reação direta
+        ao Romantismo. Em oposição ao sentimentalismo e à subjetividade romântica, o movimento defendia
+        uma representação objetiva da realidade, rejeitando idealizações e exageros emocionais.</p>
+
+      <hr class="my-4">
+
+      <h2 class="h4 mt-4">1. Contexto Histórico e Filosófico</h2>
+
+      <ul>
+        <li><strong>Influências Intelectuais:</strong> Correntes como o Positivismo, o Materialismo e o Cientificismo
+          forneceram a base filosófica do movimento.</li>
+
+        <li><strong>Ascensão da Burguesia:</strong> A literatura passou a retratar criticamente os costumes sociais e os
+          problemas da vida urbana cotidiana.</li>
+
+        <li><strong>Revolução Industrial:</strong> Os conflitos sociais e as desigualdades entre classes tornaram-se
+          temas centrais das obras realistas.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">2. Características do Realismo Literário</h2>
+
+      <ul>
+        <li><strong>Objetivismo e Veracidade:</strong> Busca de um retrato fiel da sociedade por meio de linguagem
+          direta, descritiva e detalhada.</li>
+
+        <li><strong>Análise Psicológica:</strong> Investigação profunda da mente humana, revelando egoísmo, hipocrisia,
+          ambição e conflitos interiores.</li>
+
+        <li><strong>Narrativa em Terceira Pessoa:</strong> O narrador assume postura mais observadora e distante,
+          diferentemente da subjetividade romântica.</li>
+
+        <li><strong>Temas Sociais e Urbanos:</strong> Exploração do cotidiano, das relações sociais, do adultério e das
+          falhas das instituições.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">3. O Realismo no Brasil (1881 — Início do Século XX)</h2>
+
+      <p>O marco inicial do Realismo brasileiro foi a publicação de <em>Memórias Póstumas de Brás Cubas</em> (1881),
+        de Machado de Assis.</p>
+
+      <ul>
+        <li><strong>Machado de Assis:</strong> Principal nome do Realismo brasileiro. Suas obras romperam com o
+          idealismo romântico e destacaram-se pela ironia, pela crítica social e pela profunda análise psicológica dos
+          personagens.</li>
+
+        <li><strong>Raul Pompeia e Visconde de Taunay:</strong> Também contribuíram para o movimento ao retratar de
+          forma crítica e realista a sociedade brasileira.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">4. O Realismo em Portugal</h2>
+
+      <p>Em Portugal, o Realismo consolidou-se após 1865, impulsionado pela polêmica conhecida como “Questão Coimbrã”.
+        <strong>Eça de Queirós</strong> e <strong>Antero de Quental</strong> destacaram-se como os principais
+        representantes do movimento.
+      </p>
+
+      <p>Eça de Queirós utilizou o romance social para denunciar a corrupção do clero e a hipocrisia burguesa em obras
+        como <em>O Crime do Padre Amaro</em>. Já as <em>Conferências do Casino</em> (1871) marcaram a consolidação
+        do Realismo como proposta artística e intelectual renovadora.</p>
+
+      <h2 class="h4 mt-4">5. Realismo nas Artes Visuais</h2>
+
+      <ul>
+        <li><strong>Pintura:</strong> Gustave Courbet destacou-se pela representação de trabalhadores e cenas cotidianas
+          antes ignoradas pela arte tradicional.</li>
+
+        <li><strong>Escultura:</strong> Auguste Rodin abandonou a idealização clássica para representar figuras humanas
+          de forma expressiva e natural.</li>
+
+        <li><strong>Arquitetura:</strong> Voltou-se para as necessidades da industrialização, com construções como
+          fábricas, estações ferroviárias, hospitais e moradias populares.</li>
+      </ul>
+    </article>
+
+  </main>
+
+  <footer>
+    <div class="footer-sides">
+      <div class="footer-literatura">
+        <p class="fs-2">literatura.</p>
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
+              class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+            </svg>
+            sem fins lucrativos
+          </span>
+        </p>
+      </div>
+      <div class="footer-projeto">
+        <p class="fs-2">PROJETO</p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

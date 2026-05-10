@@ -1,283 +1,192 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap na Prática</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">literatura</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                literatura
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="humanismo.html">Humanismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="classicismo.html">Classicismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="barroco.html">Barroco</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="romantismo.html"
-                    >Romantismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="realismo.html">Realismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="parnasianismo.html"
-                    >Parnasianismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pré-modernismo.html"
-                    >Pré-modernismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="modernismo.html">Modernismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pós-modernismo.html"
-                    >Pós-modernismo</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romantismo — Literatura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+<body>
+
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link" href="arcadismo.html">Arcadismo</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="romantismo.html">Romantismo</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <p>
-        O Romantismo foi um movimento artístico, intelectual e cultural que
-        dominou a Europa e as Américas entre o final do século XVIII e meados do
-        século XIX. Caracterizou-se pela ênfase na emoção, no individualismo e
-        pela glorificação da natureza e do passado, opondo-se ao racionalismo do
-        Iluminismo e aos padrões rígidos do Classicismo. No Brasil, o Romantismo
-        é o marco inicial da Era Nacional na literatura, surgindo quatorze anos
-        após a Independência, em um esforço para construir uma identidade
-        cultural genuinamente brasileira.
-      </p>
-      <p>
-        1. Contexto Histórico O movimento surgiu na Europa como uma reação à
-        Revolução Industrial e à excessiva racionalização científica da vida. O
-        ambiente era de rebeldia: sistemas despóticos caíam e o liberalismo
-        político ganhava força, tendo a Revolução Francesa como clímax dessa
-        oposição ao Antigo Regime. No Brasil, o contexto foi marcado pela
-        Independência em 1822, o Primeiro Reinado e as campanhas abolicionistas.
-        A literatura tornou-se um instrumento de afirmação nacional e
-        emancipação cultural em relação a Portugal.
-      </p>
-      <p>
-        2. Características Gerais A estética romântica rompeu com a "arte pela
-        arte" para focar no sentir: Subjetivismo e Egocentrismo: O autor trata
-        os assuntos de forma pessoal, colocando seus sentimentos e opiniões no
-        centro da obra, frequentemente utilizando verbos na primeira pessoa.
-        Sentimentalismo Exacerbado: A emoção está acima da razão,
-        manifestando-se através da saudade, tristeza, desilusão e melancolia.
-        Idealização: Temas como o amor, a mulher (vista como um anjo frágil) e a
-        pátria são exagerados e purificados de imperfeições. Natureza
-        Interagente: Diferente do Arcadismo, onde a natureza era apenas um
-        cenário bucólico, no Romantismo ela interage com o eu lírico, refletindo
-        o seu estado de espírito (tempestades para a angústia, sol para a
-        alegria). Grotesco e Sublime: A aceitação do feio e do imperfeito como
-        parte da beleza artística.
-      </p>
-      <p>
-        3. O Romantismo no Brasil: As Três Gerações Poéticas No Brasil, a poesia
-        romântica é didaticamente dividida em três fases distintas: Primeira
-        Geração (Nacionalista e Indianista): Iniciada em 1836 com Suspiros
-        Poéticos e Saudades, de Gonçalves de Magalhães. Focou no ufanismo e no
-        Indianismo, elegendo o indígena como o "bom selvagem" e herói nacional
-        para representar as raízes do país. Segunda Geração (Byroniana ou Mal do
-        Século): Marcada pelo profundo pessimismo, egocentrismo e atração pela
-        morte. O amor é visto como algo impossível e sofrido. O principal nome
-        foi Álvares de Azevedo. Terceira Geração (Condoreira ou Hugoniana):
-        Influenciada por Victor Hugo, focou em causas sociais, especialmente o
-        abolicionismo e a liberdade. A mulher passa a ser vista de forma mais
-        real e acessível. O maior representante foi Castro Alves, o "poeta dos
-        escravos".
-      </p>
-      <p>
-        4. A Prosa Romântica Brasileira O romance tornou-se o gênero
-        preferencial da burguesia e desenvolveu-se em quatro vertentes
-        principais: Romance Indianista: Exaltação do indígena e da natureza (ex:
-        Iracema e O Guarani, de José de Alencar). Romance Urbano: Retrato dos
-        costumes e dilemas da sociedade burguesa do Rio de Janeiro (ex: Senhora,
-        de José de Alencar, e A Moreninha, de Joaquim Manuel de Macedo). Romance
-        Regionalista: Valorização das diferenças culturais e linguísticas do
-        interior do país (ex: Inocência, do Visconde de Taunay, e O Seminarista,
-        de Bernardo Guimarães). Romance Histórico: Resgate de episódios da
-        história colonial (ex: As Minas de Prata, de José de Alencar).
-      </p>
-      <p>
-        5. Principais Autores e Obras Brasil: Gonçalves Dias: Canção do Exílio e
-        I-Juca-Pirama (Poesia Nacionalista). José de Alencar: O autor mais
-        prolífico da prosa, criador de heróis nacionais. Álvares de Azevedo:
-        Noite na Taverna e Lira dos Vinte Anos (Ultrarromantismo). Castro Alves:
-        O Navio Negreiro e Vozes d’África (Poesia Social). Machado de Assis: Em
-        sua fase inicial, escreveu romances como Helena e A Mão e a Luva.
-        Europa: Goethe: Os Sofrimentos do Jovem Werther (Alemanha). Victor Hugo:
-        Os Miseráveis (França). Lord Byron: Inspirador do estilo boêmio e
-        pessimista (Inglaterra).
-      </p>
-      <p>
-        6. Impacto Social e Cultural O Romantismo democratizou o acesso à
-        literatura, pois os autores passaram a depender do mercado editorial e
-        do gosto do público leitor (burguesia) em vez do mecenato aristocrático.
-        No Brasil, foi fundamental para a formação da identidade nacional,
-        criando os primeiros símbolos e mitos que definiram o que era ser
-        brasileiro após séculos de colonização.
-      </p>
-    </main>
-
-    <footer>
-      <div class="footer-sides">
-        <div class="footer-literatura">
-          <p class="fs-2">literatura.</p>
-          <p>
-            Um acervo digital dedicado à divulgação da literatura brasileira e
-            seus movimentos.
-          </p>
-          <p>
-            Projeto acadêmico sem fins lucrativos. <br />
-            <span class="badge text-bg-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0.5rem"
-                height="0.5rem"
-                gap="0.3rem"
-                fill="currentColor"
-                class="bi bi-heart-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
-                />
-              </svg>
-              sem fins lucrativos
-            </span>
-          </p>
-        </div>
-        <div class="footer-projeto">
-          <p class="fs-2">PROJETO</p>
-          <p>
-            <a href="sobre.html">Sobre o projeto</a>
-          </p>
-          <p>
-            <a href="mailto:exemplo@oluiseug.com">Contato</a>
-          </p>
-        </div>
       </div>
+    </nav>
+  </header>
 
-      <hr />
-      <div class="footer-bottom">
-        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+  <main class="pt-5">
+
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/romantismo.webp" class="w-100 h-100 object-fit-cover" alt="Romantismo"
+        style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Romantismo</h1>
+        <p class="lead mb-0">1836 — 1881 · A Era Nacional na Literatura</p>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </section>
+    <article class="container mb-5">
+      <p class="lead">O Romantismo foi um movimento artístico, intelectual e cultural que dominou a
+        Europa e as Américas entre o final do século XVIII e meados do século XIX. No Brasil, marcou
+        o início da Era Nacional da literatura, surgindo como parte do esforço de construção de uma identidade
+        cultural própria após a Independência.</p>
+
+      <hr class="my-4">
+
+      <h2 class="h4 mt-4">1. Contexto Histórico</h2>
+
+      <p>O movimento surgiu na Europa como reação à Revolução Industrial e ao excesso de racionalização
+        científica da vida. O liberalismo político ganhava força, tendo a Revolução Francesa como símbolo
+        da oposição ao Antigo Regime.</p>
+
+      <p>No Brasil, o contexto foi marcado pela Independência de 1822, pelo Primeiro Reinado e pelas
+        campanhas abolicionistas. A literatura passou a desempenhar papel importante na afirmação da identidade
+        nacional e na emancipação cultural em relação a Portugal.</p>
+
+      <h2 class="h4 mt-4">2. Características Gerais</h2>
+
+      <ul>
+        <li><strong>Subjetivismo e Egocentrismo:</strong> O autor coloca sentimentos, emoções e opiniões no centro da
+          obra, frequentemente utilizando a primeira pessoa.</li>
+
+        <li><strong>Sentimentalismo Exacerbado:</strong> Valorização intensa das emoções, como saudade, tristeza,
+          melancolia e desilusão amorosa.</li>
+
+        <li><strong>Idealização:</strong> Exaltação do amor, da mulher e da pátria, frequentemente representados de
+          forma perfeita e idealizada.</li>
+
+        <li><strong>Natureza Interagente:</strong> A paisagem natural reflete os estados emocionais do eu lírico,
+          acompanhando sentimentos de alegria, angústia ou sofrimento.</li>
+
+        <li><strong>Grotesco e Sublime:</strong> Aceitação do feio, do sombrio e do imperfeito como elementos capazes de
+          produzir beleza artística.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">3. As Três Gerações Poéticas no Brasil</h2>
+
+      <ul>
+        <li><strong>Primeira Geração (Nacionalista e Indianista):</strong> Iniciada em 1836 com <em>Suspiros Poéticos e
+            Saudades</em>, de Gonçalves de Magalhães. Destacou o nacionalismo e o indianismo, transformando o indígena
+          em herói nacional.</li>
+
+        <li><strong>Segunda Geração (Byroniana ou Mal do Século):</strong> Caracterizada pelo pessimismo, pelo
+          egocentrismo e pela atração pela morte. O amor aparece como impossível e doloroso. O principal representante
+          foi Álvares de Azevedo.</li>
+
+        <li><strong>Terceira Geração (Condoreira ou Hugoniana):</strong> Influenciada pelas ideias de Victor Hugo,
+          voltou-se para causas sociais, especialmente o abolicionismo e a defesa da liberdade. Seu maior representante
+          foi Castro Alves, conhecido como o “poeta dos escravos”.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">4. A Prosa Romântica Brasileira</h2>
+
+      <p>O romance romântico brasileiro desenvolveu-se em diferentes vertentes:</p>
+
+      <ul>
+        <li><strong>Romance Indianista:</strong> Valorização do indígena e da natureza brasileira, como em
+          <em>Iracema</em> e <em>O Guarani</em>, de José de Alencar.</li>
+
+        <li><strong>Romance Urbano:</strong> Retrato dos costumes e conflitos da burguesia carioca, presente em obras
+          como <em>Senhora</em>, de José de Alencar, e <em>A Moreninha</em>, de Joaquim Manuel de Macedo.</li>
+
+        <li><strong>Romance Regionalista:</strong> Exploração das diferenças culturais e sociais do interior do país,
+          como em <em>Inocência</em>, de Visconde de Taunay.</li>
+
+        <li><strong>Romance Histórico:</strong> Recuperação de episódios do passado colonial brasileiro, como em <em>As
+            Minas de Prata</em>, de José de Alencar.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">5. Principais Autores</h2>
+
+      <ul>
+        <li><strong>Gonçalves Dias:</strong> Autor de poemas marcantes como <em>Canção do Exílio</em> e
+          <em>I-Juca-Pirama</em>.</li>
+
+        <li><strong>José de Alencar:</strong> Principal romancista do período, responsável pela criação de importantes
+          heróis nacionais.</li>
+
+        <li><strong>Álvares de Azevedo:</strong> Representante do Ultrarromantismo, autor de <em>Noite na Taverna</em> e
+          <em>Lira dos Vinte Anos</em>.</li>
+
+        <li><strong>Castro Alves:</strong> Destacou-se pela poesia social e abolicionista em obras como <em>O Navio
+            Negreiro</em> e <em>Vozes d'África</em>.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">6. Impacto Social e Cultural</h2>
+
+      <p>O Romantismo contribuiu para ampliar o público leitor e fortalecer o mercado editorial.
+        No Brasil, teve papel essencial na formação da identidade nacional, criando símbolos,
+        heróis e imagens que ajudaram a definir a cultura brasileira após séculos de colonização.</p>
+    </article>
+
+  </main>
+
+  <footer>
+    <div class="footer-sides">
+      <div class="footer-literatura">
+        <p class="fs-2">literatura.</p>
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
+              class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+            </svg>
+            sem fins lucrativos
+          </span>
+        </p>
+      </div>
+      <div class="footer-projeto">
+        <p class="fs-2">PROJETO</p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

@@ -1,279 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap na Prática</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">literatura</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                literatura
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="humanismo.html">Humanismo</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="classicismo.html"
-                    >Classicismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="barroco.html">Barroco</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="romantismo.html">Romantismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="realismo.html">Realismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="parnasianismo.html"
-                    >Parnasianismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pré-modernismo.html"
-                    >Pré-modernismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="modernismo.html">Modernismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pós-modernismo.html"
-                    >Pós-modernismo</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classicismo — Literatura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+<body>
+
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page"
+                  href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link" href="arcadismo.html">Arcadismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="romantismo.html">Romantismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <p>
-        O Classicismo foi um movimento cultural, estético e intelectual que
-        floresceu durante o período do Renascimento, abrangendo principalmente
-        os séculos XV e XVI na Europa. O termo deriva da proposta central do
-        movimento: o retorno às formas, temas e valores da Antiguidade Clássica
-        (Grécia e Roma antigas), consideradas o berço da razão e do pensamento
-        ocidental. Abaixo, detalham-se os aspectos fundamentais dessa escola:
-      </p>
-      <p>
-        1. Contexto Histórico e Mentalidade O Classicismo surgiu em um momento
-        de transição profunda, marcando o fim do medievalismo e o nascimento da
-        Idade Moderna. Do Teocentrismo ao Antropocentrismo: A visão de mundo
-        medieval, centrada em Deus e nos dogmas da Igreja, deu lugar ao
-        antropocentrismo, que colocou o ser humano e sua capacidade racional no
-        centro do sistema social e cultural. Revolução Científica e Cultural: O
-        período foi impulsionado por grandes invenções e descobertas, como a
-        imprensa de Gutenberg, que permitiu a difusão do conhecimento, as
-        Grandes Navegações, e o cientificismo de figuras como Copérnico e
-        Galileu. Racionalismo: A razão passou a ser valorizada como o principal
-        meio para compreender a realidade, em oposição ao misticismo e ao puro
-        espiritualismo anterior.
-      </p>
-      <p>
-        2. Características Estéticas e Filosóficas A arte classicista buscava a
-        perfeição através do rigor e do equilíbrio. Equilíbrio, Harmonia e
-        Proporção: A obra clássica deveria refletir um "concerto harmônico",
-        pautado pela objetividade, clareza e transparência. Buscava-se uma arte
-        mais "apolínea" (racional e ordenada) do que "dionisíaca" (caótica e
-        emocional). Mimese (Imitação da Natureza): A arte era vista como uma
-        imitação da natureza, mas de uma natureza que segue leis universais de
-        harmonia. Universalismo: Privilegiava-se o que era universal e eterno em
-        detrimento do que era puramente ocasional, particular ou individual.
-        Paganismo e Mitologia: Houve uma vasta retomada de deuses e elementos
-        das mitologias grega e romana, que conviviam com a tradição cristã em um
-        processo de fusionismo. Neoplatonismo: Na literatura amorosa, predominou
-        a visão de Platão, tratando o amor de forma idealizada, elevada e por um
-        viés filosófico ou religioso, afastando-se da mera sensualidade.
-      </p>
-      <p>
-        3. A Literatura Classicista A produção literária do período foi marcada
-        por uma profunda renovação formal e temática. A "Medida Nova": Uma das
-        maiores inovações foi a introdução do verso decassílabo (dez sílabas
-        poéticas), que passou a ser chamado de "medida nova", substituindo as
-        tradicionais redondilhas (medida velha) da Idade Média. O Soneto:
-        Consolidou-se a forma fixa do soneto — estrutura composta por dois
-        quartetos e dois tercetos — como o veículo preferido para a expressão de
-        sentimentos complexos. Contenção da Subjetividade: Diferente do
-        Romantismo posterior, o autor classicista buscava esconder suas opiniões
-        e emoções pessoais, focando na impessoalidade e na perfeição da obra em
-        si. Rigor Formal e Separação de Gêneros: Cada gênero (Lírico, Épico e
-        Dramático) possuía regras rígidas e não deveria se misturar com os
-        outros.
-      </p>
-      <p>
-        4. O Classicismo em Portugal e a Figura de Camões Em Portugal, o
-        Classicismo compreende o período entre 1527 e 1580. Marco Inicial: O
-        movimento começou oficialmente com o retorno do poeta Francisco de Sá de
-        Miranda da Itália, trazendo consigo o "doce estilo novo" (dolce stil
-        nuovo) e o soneto decassílabo. Luís Vaz de Camões: É o maior expoente da
-        literatura portuguesa e uma das figuras mais notáveis da literatura
-        mundial. Sua obra divide-se em: Lírica: Marcada por temas amorosos e
-        filosóficos, onde as antíteses (ex: vida vs. morte, amor espiritual vs.
-        carnal) revelam conflitos humanos profundos. Épica (Os Lusíadas):
-        Publicada em 1572, esta epopeia exalta as Grandes Navegações e os feitos
-        heróicos do povo português, tendo como fio condutor a viagem de Vasco da
-        Gama às Índias. A obra funde a história real de Portugal com a mitologia
-        clássica. O Fim do Período: O Classicismo português encerrou-se em 1580,
-        ano da morte de Camões e do início da União das Coroas Ibéricas.
-      </p>
-      <p>
-        5. Classicismo no Contexto Brasileiro No Brasil, esse período é
-        correspondente ao Quinhentismo (obras dos anos 1500). Como o território
-        estava sendo colonizado, a produção dividiu-se entre a literatura de
-        informação (relatos de viajantes sobre a nova terra, como a Carta de
-        Pero Vaz de Caminha) e a literatura dos jesuítas (textos com fins
-        pedagógicos e de catequese).
-      </p>
-    </main>
-
-    <footer>
-      <div class="footer-sides">
-        <div class="footer-literatura">
-          <p class="fs-2">literatura.</p>
-          <p>
-            Um acervo digital dedicado à divulgação da literatura brasileira e
-            seus movimentos.
-          </p>
-          <p>
-            Projeto acadêmico sem fins lucrativos. <br />
-            <span class="badge text-bg-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0.5rem"
-                height="0.5rem"
-                gap="0.3rem"
-                fill="currentColor"
-                class="bi bi-heart-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
-                />
-              </svg>
-              sem fins lucrativos
-            </span>
-          </p>
-        </div>
-        <div class="footer-projeto">
-          <p class="fs-2">PROJETO</p>
-          <p>
-            <a href="sobre.html">Sobre o projeto</a>
-          </p>
-          <p>
-            <a href="mailto:exemplo@oluiseug.com">Contato</a>
-          </p>
-        </div>
       </div>
+    </nav>
+  </header>
 
-      <hr />
-      <div class="footer-bottom">
-        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+  <main class="pt-5">
+
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/classicismo.webp" class="w-100 h-100 object-fit-cover" alt="Classicismo"
+        style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Classicismo</h1>
+        <p class="lead mb-0">Séc. XV — XVI · Renascimento e Razão</p>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </section>
+    <article class="container mb-5">
+      <p class="lead">O Classicismo foi o movimento cultural, estético e intelectual que floresceu
+        durante o Renascimento, propondo o retorno às formas e valores da Antiguidade Clássica, especialmente Grécia e
+        Roma,
+        como modelo supremo de razão, harmonia e beleza.</p>
+
+      <hr class="my-4">
+
+      <h2 class="h4 mt-4">1. Contexto Histórico e Mentalidade</h2>
+
+      <p>O Classicismo surgiu em um momento de transição profunda, marcando o fim do medievalismo e o nascimento
+        da Idade Moderna.</p>
+
+      <ul>
+        <li><strong>Do Teocentrismo ao Antropocentrismo:</strong> A visão de mundo medieval deu lugar ao
+          antropocentrismo, que colocou o ser humano e sua capacidade racional no centro da cultura.</li>
+
+        <li><strong>Revolução Científica e Cultural:</strong> A imprensa de Gutenberg, as Grandes Navegações e o
+          cientificismo de Copérnico e Galileu impulsionaram o período.</li>
+
+        <li><strong>Racionalismo:</strong> A razão passou a ser valorizada como principal meio para compreender a
+          realidade, em oposição ao misticismo anterior.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">2. Características Estéticas e Filosóficas</h2>
+
+      <ul>
+        <li><strong>Equilíbrio, Harmonia e Proporção:</strong> A obra clássica refletia um “concerto harmônico”, pautado
+          pela objetividade e clareza, valorizando uma arte mais racional do que emocional.</li>
+
+        <li><strong>Mimese (Imitação da Natureza):</strong> A arte era entendida como imitação de uma natureza regida
+          por leis universais de harmonia.</li>
+
+        <li><strong>Universalismo:</strong> Privilegiava-se aquilo que era universal e eterno, em vez do particular e
+          passageiro.</li>
+
+        <li><strong>Paganismo e Mitologia:</strong> Retomada de deuses e elementos das mitologias grega e romana,
+          coexistindo com a tradição cristã.</li>
+
+        <li><strong>Neoplatonismo:</strong> O amor era tratado de forma idealizada e filosófica, afastando-se da mera
+          sensualidade.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">3. A Literatura Classicista</h2>
+
+      <ul>
+        <li><strong>A "Medida Nova":</strong> Introdução do verso decassílabo (10 sílabas poéticas), substituindo as
+          redondilhas medievais, conhecidas como “medida velha”.</li>
+
+        <li><strong>O Soneto:</strong> Consolidou-se como a forma fixa preferida, composta por dois quartetos e dois
+          tercetos, sendo ideal para expressar sentimentos complexos.</li>
+
+        <li><strong>Contenção da Subjetividade:</strong> O autor buscava a impessoalidade e a perfeição da obra,
+          evitando expor opiniões pessoais.</li>
+
+        <li><strong>Rigor Formal e Separação de Gêneros:</strong> Cada gênero literário, como Lírico, Épico e Dramático,
+          possuía regras rígidas e não se misturava aos demais.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">4. O Classicismo em Portugal e a Figura de Camões</h2>
+
+      <p>Em Portugal, o Classicismo compreende o período de <strong>1527 a 1580</strong>.</p>
+
+      <ul>
+        <li><strong>Marco Inicial:</strong> O retorno do poeta Francisco de Sá de Miranda da Itália, trazendo o soneto
+          decassílabo e o chamado “doce estilo novo”.</li>
+
+        <li><strong>Luís Vaz de Camões:</strong> Maior expoente da literatura portuguesa, destacou-se tanto pela obra
+          lírica, marcada por antíteses entre vida e morte, amor espiritual e carnal, quanto pela obra épica <em>Os
+            Lusíadas</em> (1572), epopeia que exalta as Grandes Navegações ao unir história e mitologia clássica.</li>
+
+        <li><strong>Fim do Período:</strong> O ano de 1580 marcou a morte de Camões e o início da União das Coroas
+          Ibéricas.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">5. Classicismo no Contexto Brasileiro</h2>
+
+      <p>No Brasil, esse período corresponde ao <strong>Quinhentismo</strong>. Como o território estava sendo
+        colonizado, a produção literária dividiu-se entre a <em>literatura de informação</em>, formada por relatos de
+        viajantes, como a
+        <em>Carta de Pero Vaz de Caminha</em>, e a <em>literatura dos jesuítas</em>, composta por textos pedagógicos
+        e de catequese.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-sides">
+      <div class="footer-literatura">
+        <p class="fs-2">literatura.</p>
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
+              class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+            </svg>
+            sem fins lucrativos
+          </span>
+        </p>
+      </div>
+      <div class="footer-projeto">
+        <p class="fs-2">PROJETO</p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

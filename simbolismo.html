@@ -1,170 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bootstrap na Prática</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simbolismo — Literatura</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
   <header>
     <nav class="navbar bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">literatura</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              literatura
-            </h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="humanismo.html">Humanismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="classicismo.html">Classicismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="barroco.html">Barroco</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="romantismo.html">Romantismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="realismo.html">Realismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="parnasianismo.html">Parnasianismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="simbolismo.html">Simbolismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pré-modernismo.html">Pré-modernismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="modernismo.html">Modernismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pós-modernismo.html">Pós-modernismo</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link" href="arcadismo.html">Arcadismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="romantismo.html">Romantismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
             </ul>
-            <form class="d-flex mt-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </div>
     </nav>
   </header>
 
-  <main>
-    <p>O Simbolismo foi um movimento artístico e literário que surgiu na França no final do século XIX, consolidando-se
-      na década de 1890 como uma reação direta ao materialismo, ao cientificismo e à objetividade do Realismo, do
-      Naturalismo e do Parnasianismo. Inspirado pelos ideais românticos, o movimento buscou explorar a subjetividade, o
-      irracional e o misticismo, focando nas zonas mais profundas da alma humana, como o inconsciente e o subconsciente.
-    </p>
-    <p>1. Princípios e Características Estéticas
-      A estética simbolista baseia-se na ideia de que a arte não deve nomear os objetos diretamente, mas sim sugerir
-      sensações e estados de espírito. Suas principais características incluem:
+  <main class="pt-5">
 
-      Subjetivismo e Individualismo: O foco sai da realidade social e volta-se para o "eu" e para a compreensão da alma
-      humana.
-      Musicalidade: Seguindo o preceito de Paul Verlaine ("a música antes de mais nada"), os poetas buscavam a
-      sonoridade através de aliterações (repetição de consoantes) e assonâncias (repetição de vogais).
-      Sinestesia: Recurso que consiste na interpenetração de diferentes sentidos (ex: "cheiro doce" ou "grito vermelho")
-      para criar imagens ricas e sugestivas.
-      Transcendentalismo e Onirismo: Preferência por temas místicos, espirituais e pelo universo dos sonhos, utilizando
-      uma linguagem vaga, imprecisa e envolta em névoas e mistérios.
-      Obsessão pelo Branco: Uma marca visual do movimento, expressa pelo uso constante de termos como "alvo", "neve",
-      "neblina" e "cristalino" para reforçar a ideia de espiritualidade e indefinição.</p>
-    <p>2. O Simbolismo no Brasil (1893 — 1922)
-      No Brasil, o movimento teve seu marco inicial em 1893 com a publicação simultânea de duas obras de Cruz e Sousa:
-      Missal (poemas em prosa) e Broquéis (poesia). O movimento perdurou até a Semana de Arte Moderna de 1922, embora
-      alguns críticos marquem 1910 como o início da transição para o Pré-Modernismo.
-      Contexto Histórico Brasileiro
-      O Simbolismo desenvolveu-se em um período de intensa agitação política e social após a Proclamação da República
-      (1889). O país vivia a transição do regime monárquico para o republicano, enfrentando crises como a Revolta da
-      Armada no Rio de Janeiro e a Revolução Federalista no Sul. Esse clima de insegurança e insatisfação serviu de pano
-      de fundo para a fuga da realidade proposta pelos simbolistas.</p>
-    <p>3. Principais Autores e Obras no Brasil
-      Cruz e Sousa (1861 — 1898)
-      Conhecido como o "Dante Negro" ou "Cisne Negro", é o maior nome do Simbolismo brasileiro. Filho de escravos
-      libertos, sua poesia é marcada por um sofrimento profundo, fruto do preconceito racial e de suas tragédias
-      pessoais.
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/simbolismo.webp" class="w-100 h-100 object-fit-cover" alt="Simbolismo"
+        style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Simbolismo</h1>
+        <p class="lead mb-0">1893 — 1922 · Misticismo e Subjetividade</p>
+      </div>
+    </section>
 
-      Obra: Sua escrita é rica em musicalidade e apresenta a clássica obsessão pela cor branca como metáfora para a
-      transcendência.
-      Poema emblemático: "Acrobata da Dor", que retrata a angústia humana através da figura de um palhaço que ri
-      enquanto seu coração sangra.
+   <article class="container mb-5">
+  <p class="lead">O Simbolismo surgiu na França no final do século XIX como reação ao materialismo
+    e à objetividade do Realismo, do Naturalismo e do Parnasianismo. O movimento valorizava a
+    subjetividade, o mistério e o mundo espiritual, buscando explorar os aspectos mais profundos
+    da alma humana.</p>
 
-      Alphonsus de Guimaraens (1870 — 1921)
-      É o poeta que melhor representa a vertente mística e religiosa do Simbolismo no Brasil. Sua obra é profundamente
-      marcada pela morte prematura de sua amada (sua prima Constança), o que gerou uma poesia carregada de saudade e
-      espiritualidade.
+  <hr class="my-4">
 
-      Obra: Destacam-se Septenário das Dores de Nossa Senhora e Kyriale.
-      Poema emblemático: "Ismália", que descreve o desvario de uma mulher que, entre a lua do céu e a lua do mar, acaba
-      por ver sua alma subir enquanto seu corpo desce às águas.
+  <h2 class="h4 mt-4">1. Princípios e Características Estéticas</h2>
 
-      Augusto dos Anjos (1884 — 1914)
-      Embora seja muitas vezes classificado como pré-modernista por seu vocabulário científico e cru, sua obra possui
-      raízes profundas no Simbolismo, especialmente pela carga de pessimismo e pela exploração da morte e da
-      decomposição da matéria.</p>
-    <p>4. O Simbolismo nas Artes Plásticas
-      No Brasil, a influência simbolista também se fez presente na pintura, afastando-se do realismo para criar obras
-      autônomas que valorizavam o onírico e o subjetivo.
+  <p>A estética simbolista defendia que a arte não deveria descrever a realidade de forma direta,
+    mas sugerir emoções, sensações e estados de espírito.</p>
 
-      Eliseu Visconti: Destacou-se com a tela Recompensa de São Sebastião, premiada internacionalmente e exemplo claro
-      da integração entre a temática espiritual e a técnica simbolista.
-      Rodolfo Amoedo: Outro artista influente que aderiu a elementos dessa estética em suas composições.</p>
+  <ul>
+    <li><strong>Subjetivismo e Individualismo:</strong> A literatura volta-se para o “eu”, para os sentimentos e para a interioridade humana.</li>
+
+    <li><strong>Musicalidade:</strong> Os poetas buscavam criar efeitos sonoros através de recursos como aliterações e assonâncias, aproximando poesia e música.</li>
+
+    <li><strong>Sinestesia:</strong> Mistura de diferentes sensações e sentidos, criando imagens sugestivas e sensoriais.</li>
+
+    <li><strong>Transcendentalismo e Onirismo:</strong> Valorização do misticismo, da espiritualidade, dos sonhos e do inconsciente.</li>
+
+    <li><strong>Linguagem Vaga e Sugestiva:</strong> Uso de símbolos, metáforas e imagens indefinidas para criar atmosfera de mistério.</li>
+
+    <li><strong>Obsessão pelo Branco:</strong> Termos ligados à cor branca, como “neve”, “alvo” e “cristalino”, aparecem frequentemente como símbolos de espiritualidade e transcendência.</li>
+  </ul>
+
+  <h2 class="h4 mt-4">2. O Simbolismo no Brasil (1893 — 1922)</h2>
+
+  <p>O Simbolismo brasileiro teve início em 1893 com a publicação das obras <em>Missal</em> e
+    <em>Broquéis</em>, de Cruz e Sousa. O movimento permaneceu ativo até a Semana de Arte Moderna de 1922.</p>
+
+  <p>O período foi marcado por instabilidade política e social após a Proclamação da República.
+    Em meio a revoltas e conflitos internos, os simbolistas buscaram afastar-se da realidade concreta,
+    mergulhando em temas espirituais e subjetivos.</p>
+
+  <h2 class="h4 mt-4">3. Principais Autores no Brasil</h2>
+
+  <ul>
+    <li><strong>Cruz e Sousa:</strong> Principal nome do Simbolismo brasileiro, conhecido como “Cisne Negro”.
+      Sua poesia apresenta forte musicalidade, sofrimento existencial e imagens ligadas à transcendência.
+      Entre suas obras destacam-se <em>Broquéis</em> e o poema <em>Acrobata da Dor</em>.</li>
+
+    <li><strong>Alphonsus de Guimaraens:</strong> Representante da vertente mística e religiosa do movimento.
+      Sua obra é marcada pela espiritualidade, pela saudade e pela presença constante da morte.
+      O poema <em>Ismália</em> é um de seus textos mais conhecidos.</li>
+
+    <li><strong>Augusto dos Anjos:</strong> Embora frequentemente associado ao Pré-Modernismo,
+      apresenta fortes influências simbolistas, especialmente no pessimismo e nos temas ligados
+      à morte e à decomposição da matéria.</li>
+  </ul>
+
+  <h2 class="h4 mt-4">4. O Simbolismo nas Artes Plásticas</h2>
+
+  <ul>
+    <li><strong>Eliseu Visconti:</strong> Destacou-se por obras com temática espiritual e atmosfera simbólica, como <em>Recompensa de São Sebastião</em>.</li>
+
+    <li><strong>Rodolfo Amoedo:</strong> Incorporou elementos simbolistas em suas pinturas, explorando temas subjetivos e idealizados.</li>
+  </ul>
+</article>
 
   </main>
 
@@ -172,16 +128,13 @@
     <div class="footer-sides">
       <div class="footer-literatura">
         <p class="fs-2">literatura.</p>
-        <p>
-          Um acervo digital dedicado à divulgação da literatura brasileira e
-          seus movimentos.
-        </p>
-        <p>
-          Projeto acadêmico sem fins lucrativos. <br />
-          <span class="badge text-bg-light">
-            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" gap="0.3rem" fill="currentColor"
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
               class="bi bi-heart-fill" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+              <path fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
             </svg>
             sem fins lucrativos
           </span>
@@ -189,23 +142,20 @@
       </div>
       <div class="footer-projeto">
         <p class="fs-2">PROJETO</p>
-        <p>
-          <a href="sobre.html">Sobre o projeto</a>
-        </p>
-        <p>
-          <a href="mailto:exemplo@oluiseug.com">Contato</a>
-        </p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
       </div>
     </div>
-
-    <hr />
+    <hr>
     <div class="footer-bottom">
       <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

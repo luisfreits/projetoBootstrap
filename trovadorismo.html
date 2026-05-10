@@ -1,274 +1,195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap na Prática</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">literatura</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                literatura
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="trovadorismo.html"
-                    >Trovadorismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="humanismo.html">Humanismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="classicismo.html">Classicismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="barroco.html">Barroco</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="romantismo.html">Romantismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="realismo.html">Realismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="parnasianismo.html"
-                    >Parnasianismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pré-modernismo.html"
-                    >Pré-modernismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="modernismo.html">Modernismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pós-modernismo.html"
-                    >Pós-modernismo</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trovadorismo — Literatura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+<body>
+
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page"
+                  href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link" href="arcadismo.html">Arcadismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="romantismo.html">Romantismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <p>
-        1. Contexto Histórico e Mentalidade O Trovadorismo desenvolveu-se
-        durante a Idade Média, período em que a Europa era dominada pela Igreja
-        Católica e pelo sistema feudal. Teocentrismo: A mentalidade da época
-        colocava Deus no centro do universo, fazendo com que a Igreja fosse a
-        instituição social mais importante, influenciando diretamente o
-        comportamento e a produção artística. Feudalismo e Vassalagem: A
-        estrutura social baseava-se em relações de dependência mútua e
-        hierarquia. Esse modelo foi transposto para a literatura através da
-        vassalagem amorosa, onde o poeta se submetia à sua amada como um vassalo
-        ao seu senhor feudal. Reconquista Cristã: O movimento foi contemporâneo
-        às lutas dos reinos cristãos para retomar territórios na Península
-        Ibérica, o que frequentemente transparecia em temas de guerra e saudade
-        nas composições.
-      </p>
-
-      <p>
-        2. Os Agentes do Trovadorismo A produção literária era dividida entre
-        diferentes figuras sociais, conforme a sua origem e função: Trovador:
-        Nobre ou membro do clero que compunha a letra e a melodia. Segrel: Nobre
-        de escala inferior (escudeiro) que executava as suas próprias
-        composições em troca de dinheiro. Jogral: De origem popular e baixa
-        condição social, era um profissional que executava as composições dos
-        trovadores nas cortes ou praças. Menestrel: Músico com maior instrução e
-        habilidades artísticas que o jogral. Soldadeira (ou Baladeira): Moça de
-        má reputação que acompanhava os jograis cantando e dançando.
-      </p>
-      <p>
-        3. Características Gerais das Cantigas As cantigas eram composições
-        poéticas feitas para serem cantadas e acompanhadas por instrumentos como
-        a viola, a flauta, o alaúde ou a harpa. Elas eram preservadas em
-        manuscritos chamados Cancioneiros, sendo os mais famosos o Cancioneiro
-        da Ajuda, o Cancioneiro da Vaticana e o Cancioneiro da Biblioteca
-        Nacional de Lisboa.
-      </p>
-      <p>
-        4. Divisão dos Gêneros Literários Gênero Lírico (Sentimental) Cantigas
-        de Amor: De influência provençal, possuem um eu lírico masculino que
-        expressa a "coita" (sofrimento amoroso) por uma mulher nobre idealizada
-        e inalcançável. O ambiente é o palaciano, marcado pelo amor cortês e por
-        uma estrutura formal complexa. Cantigas de Amigo: De origem puramente
-        ibérica, possuem um eu lírico feminino (embora escritas por homens). O
-        tema central é a saudade do "amigo" (namorado), muitas vezes em diálogos
-        com a natureza ou com a mãe. Caracterizam-se pela simplicidade e pelo
-        uso de paralelismos e refrões. Gênero Satírico (Crítico) Cantigas de
-        Escárnio: Críticas indiretas e veladas, utilizando a ironia, o sarcasmo
-        e palavras de duplo sentido. O nome da pessoa satirizada geralmente não
-        é revelado. Cantigas de Maldizer: Sátiras diretas e agressivas,
-        frequentemente nomeando o alvo e utilizando linguagem obscena ou de
-        baixo calão. Criticavam indiscrições amorosas e comportamentos de
-        membros da nobreza e do clero.
-      </p>
-      <p>
-        5. Principais Autores e Obras Paio Soares de Taveirós: Autor da "Cantiga
-        da Ribeirinha" (ou Cantiga da Guarvaia), por muito tempo considerada o
-        marco inicial da literatura galego-portuguesa (c. 1189 ou 1198). D.
-        Dinis: Rei de Portugal e um dos mais importantes trovadores, autor de
-        diversas cantigas de amor e de amigo. João Soares de Paiva: Autor de
-        "Ora faz host'o senhor de Navarra", considerada atualmente a
-        manifestação literária datável mais antiga (c. 1200). João Garcia de
-        Guilhade: Destacou-se tanto em cantigas líricas quanto nas satíricas.
-      </p>
-      <p>
-        6. Impacto Social O Trovadorismo serviu como um importante instrumento
-        de articulação e entretenimento das classes sociais medievais. Enquanto
-        as cantigas de amor reforçavam os códigos de conduta da aristocracia, as
-        cantigas satíricas funcionavam como uma válvula de escape para tensões
-        políticas e sociais, permitindo a ridicularização de figuras de poder.
-        Além da poesia, o período também produziu as novelas de cavalaria, que
-        narravam atos de coragem e honra dos cavaleiros medievais, consolidando
-        o imaginário da época.
-      </p>
-    </main>
-
-    <footer>
-      <div class="footer-sides">
-        <div class="footer-literatura">
-          <p class="fs-2">literatura.</p>
-          <p>
-            Um acervo digital dedicado à divulgação da literatura brasileira e
-            seus movimentos.
-          </p>
-          <p>
-            Projeto acadêmico sem fins lucrativos. <br />
-            <span class="badge text-bg-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0.5rem"
-                height="0.5rem"
-                gap="0.3rem"
-                fill="currentColor"
-                class="bi bi-heart-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
-                />
-              </svg>
-              sem fins lucrativos
-            </span>
-          </p>
-        </div>
-        <div class="footer-projeto">
-          <p class="fs-2">PROJETO</p>
-          <p>
-            <a href="sobre.html">Sobre o projeto</a>
-          </p>
-          <p>
-            <a href="mailto:exemplo@oluiseug.com">Contato</a>
-          </p>
-        </div>
       </div>
+    </nav>
+  </header>
 
-      <hr />
-      <div class="footer-bottom">
-        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+  <main class="pt-5">
+
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/trovadorismo.webp" class="w-100 h-100 object-fit-cover" alt="Trovadorismo"
+        style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Trovadorismo</h1>
+        <p class="lead mb-0">Séc. XII — XIV · Literatura Galego-Portuguesa</p>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </section>
+
+    <article class="container mb-5">
+      <p class="lead">O Trovadorismo foi o primeiro movimento literário em língua portuguesa,
+        desenvolvido durante a Idade Média na Península Ibérica. Suas cantigas uniam poesia e música
+        em uma tradição oral ligada às cortes medievais.</p>
+
+      <hr class="my-4">
+
+      <h2 class="h4 mt-4">1. Contexto Histórico e Mentalidade</h2>
+
+      <p>O Trovadorismo floresceu em uma sociedade marcada pelo domínio da Igreja Católica e pelo sistema feudal.
+        O teocentrismo colocava Deus no centro da vida medieval, influenciando diretamente o comportamento,
+        a cultura e a produção artística.</p>
+
+      <p>O feudalismo também influenciou a literatura através da ideia de vassalagem amorosa,
+        em que o poeta se colocava em posição de submissão diante da mulher amada,
+        semelhante à relação entre vassalo e senhor feudal.</p>
+
+      <p>Além disso, o período coincidiu com a Reconquista Cristã na Península Ibérica,
+        o que contribuiu para a presença de temas ligados à guerra, à saudade e à religiosidade.</p>
+
+      <h2 class="h4 mt-4">2. Os Agentes do Trovadorismo</h2>
+
+      <p>A produção e a execução das cantigas envolviam diferentes figuras sociais:</p>
+
+      <ul>
+        <li><strong>Trovador:</strong> Nobre ou membro do clero responsável por compor a letra e a melodia das cantigas.
+        </li>
+
+        <li><strong>Segrel:</strong> Cavaleiro de posição inferior que apresentava suas próprias composições em troca de
+          recompensa.</li>
+
+        <li><strong>Jogral:</strong> Artista popular encarregado de cantar e interpretar composições nas cortes e
+          praças.</li>
+
+        <li><strong>Menestrel:</strong> Músico mais instruído e especializado, com habilidades artísticas mais
+          refinadas.</li>
+
+        <li><strong>Soldadeira:</strong> Mulher que acompanhava apresentações musicais com dança e canto.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">3. Características Gerais das Cantigas</h2>
+
+      <p>As cantigas eram poemas feitos para serem cantados ao som de instrumentos como viola,
+        flauta, harpa e alaúde. Muitas dessas composições foram preservadas em manuscritos conhecidos
+        como Cancioneiros.</p>
+
+      <p>Entre os mais importantes destacam-se o <em>Cancioneiro da Ajuda</em>,
+        o <em>Cancioneiro da Vaticana</em> e o <em>Cancioneiro da Biblioteca Nacional de Lisboa</em>.</p>
+
+      <h2 class="h4 mt-4">4. Divisão dos Gêneros Literários</h2>
+
+      <h3 class="h5 mt-3">Gênero Lírico</h3>
+
+      <ul>
+        <li><strong>Cantigas de Amor:</strong> Apresentam eu lírico masculino que sofre pela mulher idealizada e
+          inacessível.
+          O ambiente é aristocrático e marcado pelo amor cortês.</li>
+
+        <li><strong>Cantigas de Amigo:</strong> Possuem eu lírico feminino e abordam principalmente a saudade do amado.
+          Destacam-se pela simplicidade, pelos paralelismos e pelos refrões.</li>
+      </ul>
+
+      <h3 class="h5 mt-3">Gênero Satírico</h3>
+
+      <ul>
+        <li><strong>Cantigas de Escárnio:</strong> Realizam críticas indiretas utilizando ironia, sarcasmo e duplo
+          sentido.</li>
+
+        <li><strong>Cantigas de Maldizer:</strong> Fazem críticas diretas e agressivas, frequentemente usando linguagem
+          ofensiva e mencionando explicitamente o alvo da sátira.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">5. Principais Autores</h2>
+
+      <ul>
+        <li><strong>Paio Soares de Taveirós:</strong> Autor da <em>Cantiga da Ribeirinha</em>, considerada durante muito
+          tempo o marco inicial da literatura galego-portuguesa.</li>
+
+        <li><strong>D. Dinis:</strong> Rei de Portugal e um dos mais importantes trovadores, conhecido por suas cantigas
+          de amor e de amigo.</li>
+
+        <li><strong>João Soares de Paiva:</strong> Autor de uma das manifestações literárias mais antigas da tradição
+          trovadoresca.</li>
+
+        <li><strong>João Garcia de Guilhade:</strong> Destacou-se tanto na poesia lírica quanto na satírica.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">6. Impacto Social</h2>
+
+      <p>O Trovadorismo exerceu importante função cultural e social na Idade Média.
+        As cantigas serviam tanto para entretenimento quanto para reforçar valores da aristocracia
+        e criticar comportamentos sociais.</p>
+
+      <p>Além das cantigas, o período também produziu as novelas de cavalaria,
+        narrativas centradas em coragem, honra e heroísmo, fundamentais para o imaginário medieval.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-sides">
+      <div class="footer-literatura">
+        <p class="fs-2">literatura.</p>
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
+              class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+            </svg>
+            sem fins lucrativos
+          </span>
+        </p>
+      </div>
+      <div class="footer-projeto">
+        <p class="fs-2">PROJETO</p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

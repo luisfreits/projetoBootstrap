@@ -1,273 +1,177 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap na Prática</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">literatura</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                literatura
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="humanismo.html">Humanismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="classicismo.html">Classicismo</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="quinhentismo.html"
-                    >Quinhentismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="barroco.html">Barroco</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="romantismo.html">Romantismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="realismo.html">Realismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="parnasianismo.html"
-                    >Parnasianismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pré-modernismo.html"
-                    >Pré-modernismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="modernismo.html">Modernismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pós-modernismo.html"
-                    >Pós-modernismo</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quinhentismo — Literatura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+<body>
+
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page"
+                  href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link" href="arcadismo.html">Arcadismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="romantismo.html">Romantismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <p>
-        O Quinhentismo representa o marco inicial da história literária no
-        Brasil, abrangendo a produção escrita realizada no território durante o
-        século XVI (1500-1601). Mais do que uma escola literária estruturada,
-        trata-se de um conjunto de textos que refletem o olhar do colonizador
-        europeu sobre a "nova terra", ocorrendo paralelamente ao Classicismo
-        português e sob a influência das Grandes Navegações e da Contrarreforma.
-      </p>
-      <p>
-        A produção literária do período divide-se conforme os objetivos da
-        expansão marítima: a conquista material e a conquista espiritual.
-        Literatura de Informação (ou de Viagens): Composta por relatórios,
-        cartas e diários escritos por navegantes e cronistas. Seu propósito era
-        noticiar à Coroa Portuguesa as potencialidades da terra, descrevendo
-        minuciosamente a fauna, a flora e os habitantes (nativos) em busca de
-        riquezas. Literatura de Catequese (ou dos Jesuítas): Surgiu com a
-        chegada da Companhia de Jesus em 1549. Tinha caráter pedagógico e
-        moralizante, focando na conversão dos indígenas ao cristianismo.
-        Utilizava-se de poemas de devoção, autos teatrais e cartas que relatavam
-        o progresso das missões.
-      </p>
-      <p>
-        2. Características Estéticas e Linguísticas Embora muitos críticos não a
-        considerem "literatura propriamente dita" por carecer de preocupação
-        estética em prol do prazer da leitura, ela possui traços marcantes:
-        Ufanismo: Uma exaltação constante e entusiasmada da terra exótica e
-        exuberante. Linguagem Descritiva: Uso frequente de adjetivos no
-        superlativo para capturar o deslumbramento do Novo Mundo. Simplicidade e
-        Objetividade: Especialmente na literatura informativa, os textos visavam
-        ser diretos e claros para cumprir sua função documental. Temática
-        Teocêntrica: Predominante na produção jesuítica, colocando Deus no
-        centro das atenções.
-      </p>
-      <p>
-        3. Principais Autores e Obras Documentais Pero Vaz de Caminha: Escrivão
-        da frota de Cabral, escreveu a Carta de Achamento do Brasil (1500).
-        Considerada a "certidão de nascimento" do país, a obra detalha o
-        primeiro contato entre europeus e indígenas, destacando tanto a beleza
-        da terra quanto a necessidade de "salvar aquela gente" através da fé.
-        Pero de Magalhães Gândavo: Autor de História da Província de Santa Cruz
-        e Tratado da Terra do Brasil (1576), focou na descrição de animais e
-        plantas exóticas, além de relatar a descoberta do território. Gabriel
-        Soares de Sousa: Escreveu o Tratado Descritivo do Brasil (1587), uma
-        obra informativa de grande valor histórico. Frei Vicente do Salvador:
-        Cronista que produziu a História do Brasil (1627), registrando a
-        evolução da colônia.
-      </p>
-      <p>
-        4. A Expressão Jesuítica e o Legado de Anchieta A literatura de
-        catequese teve no Padre José de Anchieta seu maior expoente. Conhecido
-        como o "Apóstolo do Brasil", Anchieta desempenhou diversas funções:
-        Gramático: Escreveu a primeira gramática da língua tupi (Arte de
-        Gramática da Língua mais Usada na Costa do Brasil, 1595) para facilitar
-        a evangelização. Poeta e Teatrólogo: Criou os primeiros autos teatrais
-        do Brasil, que adaptavam elementos da cultura nativa para ensinar
-        preceitos cristãos. Um de seus feitos mais célebres foi escrever um
-        poema de quase seis mil versos à Virgem Maria nas areias da praia
-        enquanto era mantido refém por indígenas. Padre Manuel da Nóbrega: Chefe
-        da primeira missão jesuítica, escreveu Diálogos sobre a Conversão do
-        Gentio (1557), discutindo os costumes indígenas e as estratégias para a
-        catequese.
-      </p>
-      <p>
-        5. Impacto e Repercussão Histórica O Quinhentismo lançou as bases do
-        sentimento nativista brasileiro. A imagem do indígena e da natureza
-        magnífica, construída nestes primeiros séculos, foi a fonte temática
-        fundamental para o Romantismo (indianismo) e, mais tarde, revisitada
-        criticamente pelo Modernismo. O período reflete um processo de imposição
-        cultural europeia, mas também o surgimento de uma identidade nacional
-        vinculada à terra exótica.
-      </p>
-    </main>
-
-    <footer>
-      <div class="footer-sides">
-        <div class="footer-literatura">
-          <p class="fs-2">literatura.</p>
-          <p>
-            Um acervo digital dedicado à divulgação da literatura brasileira e
-            seus movimentos.
-          </p>
-          <p>
-            Projeto acadêmico sem fins lucrativos. <br />
-            <span class="badge text-bg-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0.5rem"
-                height="0.5rem"
-                gap="0.3rem"
-                fill="currentColor"
-                class="bi bi-heart-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
-                />
-              </svg>
-              sem fins lucrativos
-            </span>
-          </p>
-        </div>
-        <div class="footer-projeto">
-          <p class="fs-2">PROJETO</p>
-          <p>
-            <a href="sobre.html">Sobre o projeto</a>
-          </p>
-          <p>
-            <a href="mailto:exemplo@oluiseug.com">Contato</a>
-          </p>
-        </div>
       </div>
+    </nav>
+  </header>
 
-      <hr />
-      <div class="footer-bottom">
-        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+  <main class="pt-5">
+
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/quinhentismo.webp" class="w-100 h-100 object-fit-cover" alt="Quinhentismo"
+        style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Quinhentismo</h1>
+        <p class="lead mb-0">Séc. XVI (1500 — 1601) · O Início no Brasil</p>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </section>
+    <article class="container mb-5">
+      <p class="lead">O Quinhentismo representa o marco inicial da história literária no Brasil,
+        abrangendo a produção escrita do século XVI. Mais do que uma escola literária organizada,
+        trata-se de um conjunto de textos que registram o olhar do colonizador europeu sobre a “nova terra”.</p>
+
+      <hr class="my-4">
+
+      <h2 class="h4 mt-4">1. Divisão da Produção Literária</h2>
+
+      <p>A produção literária do período pode ser dividida de acordo com os objetivos da expansão marítima portuguesa:
+        a conquista material e a conquista espiritual.</p>
+
+      <ul>
+        <li><strong>Literatura de Informação (ou de Viagens):</strong> Relatórios, cartas e diários escritos por
+          navegantes e cronistas com o objetivo de informar à Coroa Portuguesa as riquezas da terra, descrevendo fauna,
+          flora e povos indígenas.</li>
+
+        <li><strong>Literatura de Catequese (ou dos Jesuítas):</strong> Desenvolveu-se com a chegada da Companhia de
+          Jesus em 1549. Possuía caráter pedagógico e religioso, buscando converter os indígenas ao cristianismo por
+          meio de poemas, autos teatrais e cartas missionárias.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">2. Características Estéticas e Linguísticas</h2>
+
+      <ul>
+        <li><strong>Ufanismo:</strong> Exaltação entusiasmada da terra brasileira, vista como exótica e abundante.</li>
+
+        <li><strong>Linguagem Descritiva:</strong> Uso frequente de descrições detalhadas e adjetivos intensos para
+          transmitir o encantamento com o Novo Mundo.</li>
+
+        <li><strong>Simplicidade e Objetividade:</strong> Especialmente nos textos informativos, predominava uma
+          linguagem direta voltada para a função documental.</li>
+
+        <li><strong>Temática Teocêntrica:</strong> Presente principalmente na produção jesuítica, colocando Deus e a fé
+          cristã no centro das atenções.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">3. Principais Autores e Obras Documentais</h2>
+
+      <ul>
+        <li><strong>Pero Vaz de Caminha:</strong> Escrivão da frota de Pedro Álvares Cabral, autor da <em>Carta de
+            Achamento do Brasil</em> (1500), considerada a “certidão de nascimento” do país.</li>
+
+        <li><strong>Pero de Magalhães Gândavo:</strong> Autor de <em>História da Província de Santa Cruz</em> e
+          <em>Tratado da Terra do Brasil</em> (1576), obras voltadas para a descrição das riquezas naturais da colônia.
+        </li>
+
+        <li><strong>Gabriel Soares de Sousa:</strong> Escreveu o <em>Tratado Descritivo do Brasil</em> (1587),
+          importante documento histórico sobre a colônia portuguesa.</li>
+
+        <li><strong>Frei Vicente do Salvador:</strong> Produziu a <em>História do Brasil</em> (1627), registrando
+          acontecimentos importantes da formação colonial.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">4. A Expressão Jesuítica e o Legado de Anchieta</h2>
+
+      <p>A literatura de catequese teve em <strong>Padre José de Anchieta</strong> seu principal representante,
+        conhecido como o “Apóstolo do Brasil”.</p>
+
+      <ul>
+        <li><strong>Gramático:</strong> Elaborou a primeira gramática da língua tupi, <em>Arte de Gramática da Língua
+            mais Usada na Costa do Brasil</em> (1595), facilitando o trabalho de evangelização.</li>
+
+        <li><strong>Poeta e Teatrólogo:</strong> Produziu os primeiros autos teatrais do Brasil, adaptando elementos da
+          cultura indígena para ensinar valores cristãos.</li>
+
+        <li><strong>Padre Manuel da Nóbrega:</strong> Líder da primeira missão jesuítica no Brasil e autor dos
+          <em>Diálogos sobre a Conversão do Gentio</em> (1557).</li>
+      </ul>
+
+      <h2 class="h4 mt-4">5. Impacto e Repercussão Histórica</h2>
+
+      <p>O Quinhentismo lançou as bases do sentimento nativista brasileiro. A imagem do indígena e da natureza
+        exuberante,
+        construída nesses primeiros textos, tornou-se fundamental para movimentos posteriores, como o Romantismo,
+        especialmente no indianismo, e também foi reinterpretada criticamente pelo Modernismo. O período revela tanto
+        a imposição cultural europeia quanto o início da construção de uma identidade ligada ao território brasileiro.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-sides">
+      <div class="footer-literatura">
+        <p class="fs-2">literatura.</p>
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
+              class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+            </svg>
+            sem fins lucrativos
+          </span>
+        </p>
+      </div>
+      <div class="footer-projeto">
+        <p class="fs-2">PROJETO</p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

@@ -1,163 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bootstrap na Prática</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parnasianismo — Literatura</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
   <header>
     <nav class="navbar bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">literatura</a>
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              literatura
-            </h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="humanismo.html">Humanismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="classicismo.html">Classicismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="barroco.html">Barroco</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="arcadismo.html">Arcadismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="romantismo.html">Romantismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="realismo.html">Realismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="parnasianismo.html">Parnasianismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pré-modernismo.html">Pré-modernismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="modernismo.html">Modernismo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pós-modernismo.html">Pós-modernismo</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link" href="arcadismo.html">Arcadismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="romantismo.html">Romantismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page"
+                  href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
             </ul>
-            <form class="d-flex mt-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </div>
     </nav>
   </header>
 
-  <main>
-    <p>O Parnasianismo foi um movimento poético que surgiu na França no final do século XIX, tendo como bandeira
-      principal a oposição ao Romantismo. Enquanto a prosa da época já havia aderido ao Realismo e ao Naturalismo, a
-      poesia ainda mantinha fortes traços românticos, o que levou os poetas parnasianos a proporem uma estética pautada
-      pelo rigor formal e pela objetividade.</p>
-    <p>1. A Filosofia da "Arte pela Arte"
-      A característica central do Parnasianismo é o princípio da "arte pela arte" (l'art pour l'art). Para os
-      parnasianos, a poesia não deveria servir a propósitos sociais, políticos, pedagógicos ou expressar as emoções
-      pessoais do autor. O objetivo único da obra de arte era a sua própria beleza e perfeição estética.</p>
-    <p>2. O "Trabalho de Ourives" e o Rigor Formal
-      Os poetas parnasianos consideravam-se lapidadores da palavra. A composição poética era vista como um trabalho de
-      ourives, exigindo um esforço minucioso para atingir a perfeição. Esse rigor manifestava-se através de:
+  <main class="pt-5">
 
-      Métrica Rigorosa: Preferência absoluta por versos regulares, especialmente o decassílabo e o alexandrino (doze
-      sílabas).
-      Rimas Ricas e Raras: Busca por rimas entre palavras de classes gramaticais diferentes ou termos pouco usuais.
-      Forma Fixa: O soneto tornou-se a estrutura privilegiada para demonstrar a habilidade técnica do poeta.
-      Preciosismo Vocabular: Uso de linguagem culta, vocabulário raro e inversões sintáticas (hipérbatos) para conferir
-      sofisticação ao texto.</p>
-    <p>3. Características Temáticas
-      Diferente dos românticos, que focavam no "eu" e no sentimentalismo, os parnasianos buscavam a objetividade e a
-      impessoalidade.
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/parnasianismo.webp" class="w-100 h-100 object-fit-cover" alt="Parnasianismo"
+        style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Parnasianismo</h1>
+        <p class="lead mb-0">1882 — Início do Séc. XX · Arte pela Arte</p>
+      </div>
+    </section>
 
-      Retorno ao Classicismo: Recuperação de temas da Antiguidade Clássica e da mitologia greco-latina.
-      Descritivismo: Foco na descrição detalhada de objetos plásticos, como estátuas, vasos e monumentos, visando
-      capturar a beleza visual através das palavras.
-      Controle das Emoções: A voz lírica evita manifestações efusivas, mantendo um tom sóbrio e contido.</p>
-    <p>4. O Parnasianismo no Brasil (1882 — Início do Séc. XX)
-      No Brasil, o movimento começou a ganhar força a partir de 1870, culminando em uma disputa intelectual nos jornais
-      cariocas conhecida como a "Batalha do Parnaso", que opôs os adeptos da nova estética aos defensores do Romantismo.
-      O marco inicial é frequentemente associado à publicação de Fanfarras (1882), de Teófilo Dias.</p>
-    <p>A Tríade Parnasiana
-      O movimento no Brasil foi dominado por três grandes nomes, conhecidos como a "Tríade Parnasiana":
+    <article class="container mb-5">
+      <p class="lead">O Parnasianismo foi um movimento poético surgido na França no final do século XIX,
+        tendo como principal bandeira a oposição ao Romantismo. Sua estética pautava-se pelo rigor formal,
+        pela objetividade e pelo princípio da "arte pela arte".</p>
 
-      Olavo Bilac: Considerado o "Príncipe dos Poetas", sua obra une o rigor formal a um certo lirismo sensorial e
-      patriótico.
-      Alberto de Oliveira: O autor que mais fielmente seguiu os preceitos do movimento, famoso por poemas puramente
-      descritivos como Vaso Chinês.
-      Raimundo Correia: Destacou-se pela poesia de reflexão filosófica e melancólica, marcada pelo pessimismo.</p>
+      <hr class="my-4">
+      <h2 class="h4 mt-4">1. A Filosofia da "Arte pela Arte"</h2>
+
+      <p>Para os parnasianos, a poesia não deveria servir a propósitos sociais, políticos ou pedagógicos,
+        nem expressar emoções pessoais do autor. O objetivo central da obra de arte era alcançar a
+        <strong>beleza e a perfeição estética</strong>.
+      </p>
+
+      <h2 class="h4 mt-4">2. O "Trabalho de Ourives" e o Rigor Formal</h2>
+
+      <p>Os poetas parnasianos consideravam-se verdadeiros lapidadores da palavra, realizando um trabalho minucioso
+        para atingir a perfeição formal. Esse rigor manifestava-se em diferentes aspectos:</p>
+
+      <ul>
+        <li><strong>Métrica Rigorosa:</strong> Preferência por versos regulares, especialmente o decassílabo e o
+          alexandrino, composto por 12 sílabas poéticas.</li>
+
+        <li><strong>Rimas Ricas e Raras:</strong> Uso de rimas entre palavras de classes gramaticais diferentes ou
+          termos pouco comuns.</li>
+
+        <li><strong>Forma Fixa:</strong> O soneto consolidou-se como a estrutura preferida para demonstrar habilidade
+          técnica.</li>
+
+        <li><strong>Preciosismo Vocabular:</strong> Linguagem culta, vocabulário sofisticado e frequente uso de
+          inversões sintáticas, conhecidas como hipérbatos.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">3. Características Temáticas</h2>
+
+      <ul>
+        <li><strong>Retorno ao Classicismo:</strong> Recuperação de temas ligados à Antiguidade Clássica e à mitologia
+          greco-latina.</li>
+
+        <li><strong>Descritivismo:</strong> Valorização da descrição detalhada de objetos artísticos, como estátuas,
+          vasos e monumentos, buscando transformar palavras em imagens visuais.</li>
+
+        <li><strong>Controle das Emoções:</strong> A voz poética mantinha tom equilibrado e contido, evitando
+          sentimentalismo excessivo.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">4. O Parnasianismo no Brasil (1882 — Início do Século XX)</h2>
+
+      <p>No Brasil, o movimento ganhou força a partir da década de 1870, culminando na chamada “Batalha do Parnaso”,
+        disputa intelectual travada nos jornais cariocas entre os defensores da nova estética e os adeptos do
+        Romantismo.
+        O marco inicial costuma ser associado à publicação de <em>Fanfarras</em> (1882), de Teófilo Dias.</p>
+
+      <h3 class="h5 mt-3">A Tríade Parnasiana</h3>
+
+      <ul>
+        <li><strong>Olavo Bilac:</strong> Conhecido como o “Príncipe dos Poetas”, uniu rigor formal a um lirismo marcado
+          por sensualidade e patriotismo.</li>
+
+        <li><strong>Alberto de Oliveira:</strong> Foi o autor que mais fielmente seguiu os princípios do Parnasianismo,
+          destacando-se pelo poema descritivo <em>Vaso Chinês</em>.</li>
+
+        <li><strong>Raimundo Correia:</strong> Destacou-se pela poesia de reflexão filosófica e tom melancólico,
+          frequentemente marcada pelo pessimismo.</li>
+      </ul>
+
+    </article>
+
+
   </main>
 
   <footer>
     <div class="footer-sides">
       <div class="footer-literatura">
         <p class="fs-2">literatura.</p>
-        <p>
-          Um acervo digital dedicado à divulgação da literatura brasileira e
-          seus movimentos.
-        </p>
-        <p>
-          Projeto acadêmico sem fins lucrativos. <br />
-          <span class="badge text-bg-light">
-            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" gap="0.3rem" fill="currentColor"
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
               class="bi bi-heart-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
             </svg>
@@ -167,23 +148,20 @@
       </div>
       <div class="footer-projeto">
         <p class="fs-2">PROJETO</p>
-        <p>
-          <a href="sobre.html">Sobre o projeto</a>
-        </p>
-        <p>
-          <a href="mailto:exemplo@oluiseug.com">Contato</a>
-        </p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
       </div>
     </div>
-
-    <hr />
+    <hr>
     <div class="footer-bottom">
       <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

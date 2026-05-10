@@ -1,277 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap na Prática</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">literatura</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                literatura
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="trovadorismo.html">Trovadorismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="humanismo.html">Humanismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="classicismo.html">Classicismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quinhentismo.html">Quinhentismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="barroco.html">Barroco</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="arcadismo.html"
-                    >Arcadismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="romantismo.html">Romantismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="realismo.html">Realismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="naturalismo.html">Naturalismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="parnasianismo.html"
-                    >Parnasianismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="simbolismo.html">Simbolismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pré-modernismo.html"
-                    >Pré-modernismo</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="modernismo.html">Modernismo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pós-modernismo.html"
-                    >Pós-modernismo</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcadismo — Literatura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+<body>
+
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">literatura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">literatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="trovadorismo.html">Trovadorismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="humanismo.html">Humanismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="classicismo.html">Classicismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="quinhentismo.html">Quinhentismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="barroco.html">Barroco</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="arcadismo.html">Arcadismo</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="romantismo.html">Romantismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="realismo.html">Realismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="naturalismo.html">Naturalismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="parnasianismo.html">Parnasianismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="simbolismo.html">Simbolismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pré-modernismo.html">Pré-Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="modernismo.html">Modernismo</a></li>
+              <li class="nav-item"><a class="nav-link" href="pós-modernismo.html">Pós-Modernismo</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <nav></nav>
-
-    <main>
-      <p>
-        O Arcadismo, também conhecido como Neoclassicismo ou Setecentismo, foi a
-        escola literária que dominou o século XVIII (anos 1700), surgindo como
-        uma reação direta ao Barroco. Enquanto o Barroco era marcado pelo
-        exagero, complexidade e conflitos existenciais, o Arcadismo propunha o
-        equilíbrio, a clareza e a simplicidade, buscando inspiração nos modelos
-        da Antiguidade Clássica e do Renascimento. No Brasil, o movimento
-        compreende o período entre 1768 e 1808 (ou 1836), sendo a última escola
-        literária da Era Colonial.
-      </p>
-      <p>
-        Contexto Histórico e Influências O Arcadismo foi profundamente
-        influenciado pelo Iluminismo, movimento intelectual europeu que defendia
-        o racionalismo e o progresso científico em detrimento da fé religiosa.
-        No cenário brasileiro, o movimento esteve restrito principalmente ao
-        estado de Minas Gerais, especificamente à região de Vila Rica (atual
-        Ouro Preto). Esse local tornou-se o centro econômico e cultural da
-        colônia devido ao Ciclo do Ouro, permitindo que uma burguesia letrada —
-        composta por juristas, padres e militares formados na Europa — trouxesse
-        as ideias iluministas para o Brasil. Esse ambiente de efervescência
-        intelectual culminou na Inconfidência Mineira, movimento político que
-        buscava a independência de Minas Gerais e que contou com a participação
-        ativa dos principais poetas árcades.
-      </p>
-      <p>
-        Características e Preceitos Latinos A estética árcade fundamenta-se em
-        conceitos expressos por frases em latim que orientavam o estilo de vida
-        e a escrita dos autores: Inutilia Truncat (Cortar o inútil): Refere-se à
-        necessidade de eliminar os excessos e rebuscamentos formais do Barroco
-        para manter a simplicidade e o equilíbrio. Fugere Urbem (Fuga da
-        cidade): Crítica ao ambiente urbano caótico e corrompido, pregando o
-        retorno à vida simples no campo. Locus Amoenus (Lugar agradável):
-        Idealização da natureza como um cenário perfeito, tranquilo e propício
-        para o sossego do homem. Carpe Diem (Aproveitar o dia): Convite para
-        desfrutar o presente e o amor durante a juventude, dada a consciência da
-        brevidade e efemeridade da vida. Aurea Mediocritas (Dourada mediania):
-        Elogio à vida equilibrada e simples, sem a busca por luxo ou riquezas
-        extremas. Outras marcas importantes incluem o uso de pseudônimos
-        pastoris (fingimento poético), a preferência pelo soneto e o uso da
-        mitologia pagã.
-      </p>
-      <p>
-        O Arcadismo no Brasil: Particularidades Embora tenha seguido as
-        convenções europeias, o Arcadismo brasileiro adquiriu traços únicos que
-        prenunciaram o Romantismo: Inserção da Cor Local: Uso de paisagens
-        tropicais, flora e fauna brasileiras nos textos. Temática Indigenista: O
-        índio começou a aparecer como tema literário, sendo retratado por vezes
-        como herói, como nas obras épicas. Sentimento Nativista: O desejo de
-        liberdade e a valorização da terra colonial como centro das atenções.
-      </p>
-      <p>
-        Principais Autores e Obras no Brasil Cláudio Manuel da Costa (Glauceste
-        Satúrnio) Considerado o introdutor do Arcadismo no Brasil com a
-        publicação de Obras Poéticas em 1768. Fundou a Arcádia Ultramarina em
-        Vila Rica. Sua poesia, embora de transição (com traços do cultismo
-        barroco), foca em temas pastoris e na paisagem mineira. Sua obra épica
-        mais famosa é Vila Rica. Tomás Antônio Gonzaga (Dirceu) Autor da obra
-        mais relevante do período: Marília de Dirceu (1792). O livro, dividido
-        em liras, narra o amor entre o pastor Dirceu e a pastora Marília (Maria
-        Dorotéia de Seixas). A segunda parte da obra, escrita na prisão, revela
-        um emocionalismo pré-romântico e melancólico. Também é o autor provável
-        de Cartas Chilenas, uma sátira contundente contra o autoritarismo e a
-        corrupção do governo mineiro (personificado como Fanfarrão Minésio).
-        Basílio da Gama (Termindo Sipílio) Notabilizou-se pelo poema épico O
-        Uraguai (1769). A obra é marcada por uma mentalidade anti-jesuítica e
-        pela descrição das lutas entre portugueses, espanhóis e indígenas.
-        Diferente das epopeias clássicas tradicionais, o poema não possui
-        divisão em estrofes ou rimas obrigatórias. Santa Rita Durão Escreveu o
-        poema épico Caramuru (1781), que narra o descobrimento da Bahia e a
-        história do náufrago Diogo Álvares Correia entre os indígenas
-        Tupinambás. Sua obra exalta a natureza brasileira e utiliza figuras
-        mitológicas para construir a narrativa histórica da colônia
-      </p>
-    </main>
-
-    <footer>
-      <div class="footer-sides">
-        <div class="footer-literatura">
-          <p class="fs-2">literatura.</p>
-          <p>
-            Um acervo digital dedicado à divulgação da literatura brasileira e
-            seus movimentos.
-          </p>
-          <p>
-            Projeto acadêmico sem fins lucrativos. <br />
-            <span class="badge text-bg-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="0.5rem"
-                height="0.5rem"
-                gap="0.3rem"
-                fill="currentColor"
-                class="bi bi-heart-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
-                />
-              </svg>
-              sem fins lucrativos
-            </span>
-          </p>
-        </div>
-        <div class="footer-projeto">
-          <p class="fs-2">PROJETO</p>
-          <p>
-            <a href="sobre.html">Sobre o projeto</a>
-          </p>
-          <p>
-            <a href="mailto:exemplo@oluiseug.com">Contato</a>
-          </p>
-        </div>
       </div>
+    </nav>
+  </header>
 
-      <hr />
-      <div class="footer-bottom">
-        <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+  <main class="pt-5">
+
+    <section class="position-relative text-white mb-5" style="height:320px;overflow:hidden;">
+      <img src="img/arcadismo.webp" class="w-100 h-100 object-fit-coverw-100 h-100 object-fit-cover" alt="Arcadismo"
+        style="filter:brightness(0.45);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+        <h1 class="display-4 fw-bold">Arcadismo</h1>
+        <p class="lead mb-0">1768 — 1808 · Neoclassicismo e Iluminismo</p>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </section>
+-4">
+
+      <h2 class="h4 mt-4">Contexto Histórico e Influências</h2>
+
+      <p>O Arcadismo foi profundamente influenciado pelo <strong>Iluminismo</strong>, movimento que
+        defendia o racionalismo e o progresso científico. No Brasil, o movimento concentrou-se em
+        <strong>Minas Gerais</strong>, especificamente em Vila Rica (atual Ouro Preto). O Ciclo do Ouro
+        permitiu que uma burguesia letrada trouxesse as ideias iluministas para a colônia, culminando na
+        <strong>Inconfidência Mineira</strong>, que contou com a participação ativa dos principais poetas árcades.
+      </p>
+
+      <h2 class="h4 mt-4">Características e Preceitos Latinos</h2>
+
+      <p>A estética
+    <article class="container mb-5">
+      <p class="lead">O Arcadismo, também conhecido como Neoclassicismo ou Setecentismo, dominou o
+        século XVIII como uma reação direta ao Barroco. Propunha equilíbrio, clareza e simplicidade,
+        inspirando-se na Antiguidade Clássica. No Brasil, foi a última escola literária da Era Colonial
+        (1768–1808).</p>
+
+      <hr class="my árcade fundamenta-se em conceitos expressos em latim que orientavam o estilo e a escrita:</p>
+
+      <ul>
+        <li><strong><em>Inutilia Truncat</em> (Cortar o inútil):</strong> Eliminar os excessos formais do Barroco em
+          favor da simplicidade.</li>
+
+        <li><strong><em>Fugere Urbem</em> (Fuga da cidade):</strong> Crítica ao ambiente urbano corrompido, defendendo o
+          retorno à vida simples no campo.</li>
+
+        <li><strong><em>Locus Amoenus</em> (Lugar agradável):</strong> Idealização da natureza como cenário perfeito e
+          tranquilo.</li>
+
+        <li><strong><em>Carpe Diem</em> (Aproveitar o dia):</strong> Convite para desfrutar o presente e o amor durante
+          a juventude, dada a brevidade da vida.</li>
+
+        <li><strong><em>Aurea Mediocritas</em> (Dourada mediania):</strong> Elogio à vida equilibrada e simples, sem
+          busca por luxo extremo.</li>
+      </ul>
+
+      <p>Outras marcas incluem o uso de pseudônimos pastoris (fingimento poético), a preferência
+        pelo soneto e o uso da mitologia pagã.</p>
+
+      <h2 class="h4 mt-4">O Arcadismo no Brasil: Particularidades</h2>
+
+      <p>Embora seguindo as convenções europeias, o Arcadismo brasileiro adquiriu traços únicos que
+        prenunciaram o Romantismo:</p>
+
+      <ul>
+        <li><strong>Inserção da Cor Local:</strong> Uso de paisagens tropicais, flora e fauna brasileiras nos textos.
+        </li>
+
+        <li><strong>Temática Indigenista:</strong> O índio começa a aparecer como tema literário, sendo retratado, em
+          alguns casos, como herói épico.</li>
+
+        <li><strong>Sentimento Nativista:</strong> O desejo de liberdade e a valorização da terra colonial.</li>
+      </ul>
+
+      <h2 class="h4 mt-4">Principais Autores e Obras no Brasil</h2>
+
+      <ul>
+        <li><strong>Cláudio Manuel da Costa (Glauceste Satúrnio):</strong> Introdutor do Arcadismo no Brasil com
+          <em>Obras Poéticas</em> (1768). Fundou a Arcádia Ultramarina em Vila Rica. Sua principal obra épica é <em>Vila
+            Rica</em>.</li>
+
+        <li><strong>Tomás Antônio Gonzaga (Dirceu):</strong> Autor de <em>Marília de Dirceu</em> (1792), considerada a
+          obra mais relevante do período. Também é apontado como provável autor de <em>Cartas Chilenas</em>, sátira ao
+          autoritarismo do governo mineiro.</li>
+
+        <li><strong>Basílio da Gama (Termindo Sipílio):</strong> Destacou-se pelo poema épico <em>O Uraguai</em> (1769),
+          marcado pela mentalidade anti-jesuítica e pela ausência de rimas e estrofes obrigatórias.</li>
+
+        <li><strong>Santa Rita Durão:</strong> Escreveu o poema épico <em>Caramuru</em> (1781), que narra o
+          descobrimento da Bahia e exalta a natureza brasileira com figuras mitológicas.</li>
+      </ul>
+    </article>
+
+  </main>
+
+  <footer>
+    <div class="footer-sides">
+      <div class="footer-literatura">
+        <p class="fs-2">literatura.</p>
+        <p>Um acervo digital dedicado à divulgação da literatura brasileira e seus movimentos.</p>
+        <p>Projeto acadêmico sem fins lucrativos.
+          <span class="badge text-bg-light ms-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.5rem" height="0.5rem" fill="currentColor"
+              class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+            </svg>
+            sem fins lucrativos
+          </span>
+        </p>
+      </div>
+      <div class="footer-projeto">
+        <p class="fs-2">PROJETO</p>
+        <p><a href="sobre.html">Sobre o projeto</a></p>
+        <p><a href="mailto:exemplo@oluiseug.com">Contato</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2026 literatura. Projeto universitário. Uso educacional.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
