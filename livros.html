@@ -58,7 +58,7 @@
             <img src="img/classicismo.webp" class="w-100 h-100 object-fit-cover" alt="Classicismo"
                 style="filter:brightness(0.45);">
             <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
-                <h1 class="display-4 fw-bold">Obras Literarias</h1>
+                <h1 id="doomEaster" class="display-4 fw-bold">Obras Literarias</h1>
                 <p class="lead mb-0">Obras literarias de dominio publico</p>
             </div>
         </section>
@@ -991,6 +991,21 @@
         const comprarForm = document.getElementById('comprarForm')//pega o formulário de compra;
         const confirmarCompra = document.getElementById('confirmarCompra')//pega o botao de confirmar compra;
         const qrModal = new bootstrap.Modal(document.getElementById('qrCodeModal')) // pega o modal do QR code e cria uma instância do Bootstrap Modal para controle via JavaScript, é uma classe do bootstrap que permite eu controlar e nao so verificar os dados como comprarForm, podendo abrir ou fechar o modal do QR code quando necessário;
+        const doomTitle = document.getElementById('doomEaster');
+        let contadorCliqueLogo = 0;
+
+        if (doomTitle) {
+            doomTitle.style.cursor = 'pointer';
+            doomTitle.title = 'Clique 10 vezes para liberar o DOOM';
+            doomTitle.addEventListener('click', () => {
+                contadorCliqueLogo++;
+                if (contadorCliqueLogo >= 10) {
+                    contadorCliqueLogo = 0;
+                    alert('DOOM liberado! 🚀');
+                    window.location.href = 'https://js-dos.com/games/doom.exe.html';
+                }
+            });
+        }
 
         confirmarCompra.addEventListener('click', () => { //fica esperando a ação de click no botão de confirmar compra, e quando isso acontecer, executa a função;
             if (comprarForm.checkValidity()) { //checa a validade do formulario, se todos os required estao preenchidos
