@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+/* modal tava ficando escondido, então coloquei o z-index pra ele ficar na frente do fundo escuro */
+.modal {
+    z-index: 9999 !important;
+    /* modal fica na frente */
+}
+
+.modal#qrCodeModal {
+    z-index: 10001 !important;
+    /* modal QR fica acima do modal de compra */
+}
+
+.modal-backdrop {
+    z-index: 9998 !important;
+    /* fundo escuro fica atrás do modal */
+}
+
 .navbar-brand {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: semibold;
@@ -133,4 +149,12 @@ footer {
         gap: 20px;
         margin-top: 5px;
     }
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
 }
